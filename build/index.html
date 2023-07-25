@@ -5,18 +5,20 @@
   <meta charset="UTF-8" />
   <title>Fitness2.0</title>
   <link rel="stylesheet" href="css/style.min.css">
-  <link rel="preload" href="fonts/AlumniSans-SemiBold.woff" type="font/woff" as="font" />
-  <link rel="preload" href="fonts/AlumniSans-SemiBold.woff2" type="font/woff2" as="font" />
-  <link rel="preload" href="fonts/RobotoCondensed-Bold.woff" type="font/woff" as="font" />
-  <link rel="preload" href="fonts/RobotoCondensed-Bold.woff2" type="font/woff2" as="font" />
-  <link rel="preload" href="fonts/RobotoCondensed-Regular.woff" type="font/woff" as="font" />
-  <link rel="preload" href="fonts/RobotoCondensed-Regular.woff2" type="font/woff2" as="font" />
+  <link rel="preload" href="fonts/AlumniSans-SemiBold.woff" type="font/woff" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/AlumniSans-SemiBold.woff2" type="font/woff2" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/RobotoCondensed-Bold.woff" type="font/woff" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/RobotoCondensed-Bold.woff2" type="font/woff2" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/RobotoCondensed-Regular.woff" type="font/woff" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/RobotoCondensed-Regular.woff2" type="font/woff2" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/RobotoCondensed-Light.woff" type="font/woff" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/RobotoCondensed-Light.woff2" type="font/woff2" as="font" crossorigin="anonymous" />
+  <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="favicon.ico" />
   <!-- 32×32 -->
   <link rel="icon" href="img/favicons/favicon-32x32.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="img/favicons/apple-icon-180x180.png" />
   <!-- 180×180 -->
-  <link rel="manifest" href="manifest.webmanifest" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Сайт Фитнесс-центра Supergym">
@@ -26,17 +28,15 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="container">
-        <div class="header__container">
-          <a class="header__logo header__logo--image" href="index.html">
-            <picture>
-              <source media="(min-width: 1200px)" srcset="img/header/logo-desktop.svg" />
-              <source media="(min-width: 768px)" srcset="img/header/logo-tablet.svg" />
-              <img src="img/header/logo-mobile.svg" alt="Логотип Fitness2.0" />
-            </picture>
-          </a>
-          <a class="header__logo header__logo--tel" href="tel:88005555555">8-800-555-55-55</a>
-        </div>
+      <div class="header__container">
+        <a class="header__logo header__logo--image" href="index.html">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/header/logo-desktop.svg" />
+            <source media="(min-width: 768px)" srcset="img/header/logo-tablet.svg" />
+            <img src="img/header/logo-mobile.svg" alt="Логотип Fitness2.0" />
+          </picture>
+        </a>
+        <a class="header__logo header__logo--tel" href="tel:88005555555">8-800-555-55-55</a>
       </div>
     </header>
 
@@ -55,7 +55,7 @@
               <li class="hero__item-zone">Кардио-зона</li>
             </ul>
             <div class="hero__wrapper-link">
-              <a class="hero__link" href="#season-tickets">Купить абонемент</a>
+              <a class="hero__link" href="#season-tickets">Купить&nbsp;абонемент</a>
             </div>
           </div>
           <picture class="hero__man">
@@ -81,8 +81,141 @@
         </div>
       </section>
 
+      <section class="gym">
+        <div class="gym__container">
+          <div class="gym__wrapper">
+            <h2 class="gym__title">Тренажерный зал</h2>
+            <p class="gym_area">Просторный зал площадью 900 кв/м</p>
+            <p class="gym__about gym__about--first">Supergym – самый большой фитнес центр за Уралом и идеальное место
+              для укрепления тела
+              и здоровья. Тренажерный зал оснащен всем необходимым современным оборудованием для всех спортсменов.
+            </p>
+            <p class="gym__about gym__about--second">В зале расположены отдельная зона для Crossfit и кардио-зона с 40
+              тренажерами. Также в фитнес центре есть
+              несколько оборудованных залов для различных видов групповых занятий.</p>
+          </div>
+          <picture class="gym__foto">
+            <source type="image/webp" media="(min-width: 1200px)" srcset="
+                  img/gym/gym-desktop.webp        1x,
+                  img/gym/gym-desktop-retina.webp 2x
+                " />
+            <source type="image/webp" media="(min-width: 768px)" srcset="
+                  img/gym/gym-tablet.webp        1x,
+                  img/gym/gym-tablet-retina.webp 2x
+                " />
+            <source type="image/webp" srcset="
+                  img/gym/gym-mobile.webp        1x,
+                  img/gym/gym-mobile-retina.webp 2x
+                " />
+            <source media="(min-width: 1200px)" srcset="
+                  img/gym/gym-desktop.png        1x,
+                  img/gym/gym-desktop-retina.png 2x
+                " />
+            <source media="(min-width: 768px)" srcset="
+                  img/gym/gym-tablet.png        1x,
+                  img/gym/gym-tablet-retina.png 2x
+                " />
+            <img src="img/gym/gym-mobile.png" srcset="img/gym/gym-mobile-retina.png 2x" alt="Обзор спортивного зала" />
+          </picture>
+          <div class="gym-video" id="video">
+            <div class="gym-video__container">
+              <a class="gym-video__link" href="https://www.youtube.com/watch?v=9TZXsZItgdw" id="link">
+                <picture class="gym-video__media" id="media">
+                  <source type="image/webp" media="(min-width: 1200px)" srcset="
+                    img/gym/video-desktop.webp        1x,
+                    img/gym/video-desktop-retina.webp 2x
+                  " />
+                  <source type="image/webp" media="(min-width: 768px)" srcset="
+                    img/gym/video-tablet.webp        1x,
+                    img/gym/video-tablet-retina.webp 2x
+                  " />
+                  <source type="image/webp" srcset="
+                    img/gym/video-mobile.webp        1x,
+                    img/gym/video-mobile-retina.webp 2x
+                  " />
+                  <source media="(min-width: 1200px)" srcset="
+                    img/gym/video-desktop.png        1x,
+                    img/gym/video-desktop-retina.png 2x
+                  " />
+                  <source media="(min-width: 768px)" srcset="
+                    img/gym/video-tablet.png        1x,
+                    img/gym/video-tablet-retina.png 2x
+                  " />
+                  <img src="img/gym/video-mobile.png" srcset="img/gym/video-mobile-retina.png 2x"
+                    alt="Фотография тренажерного зала SuperGym" />
+              </a>
+              <button class="gym-video__button" aria-label="Запустить видео" id="button">
+                <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle class="gym-video__outside" cx="50" cy="50" r="49" stroke="url(#paint0_linear_1_293)"
+                    stroke-opacity="0.2" stroke-width="2" />
+                  <circle class="gym-video__inside" cx="50" cy="50" r="36" fill="url(#paint1_linear_1_293)" />
+                  <path class="gym-video__icon" d="M59 49.5L46.25 56.8612L46.25 42.1388L59 49.5Z" fill="white" />
+                  <defs>
+                    <linearGradient id="paint0_linear_1_293" x1="19.774" y1="3.00672e-05" x2="105.785" y2="10.6444"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#ED0233" />
+                      <stop offset="1" stop-color="#003EB7" />
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_1_293" x1="14" y1="49.52" x2="54.1858" y2="9.18415"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#003D85" />
+                      <stop offset="0.885417" stop-color="#B80027" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <section class="intro">
+      <section class="tabs no-transition-global" data-tabs="parent">
+        <div class="tabs__controls" data-tabs="controls">
+          <button class="tabs__control btn" type="button" data-tabs="control">Таб 1</button>
+          <button class="tabs__control btn is-active" type="button" data-tabs="control">Таб 2</button>
+          <button class="tabs__control btn" type="button" data-tabs="control">Таб 3</button>
+        </div>
+        <div class="tabs__content" data-tabs="content">
+          <div class="tabs__element" data-tabs="element">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur dolor alias
+              debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam totam vel
+              error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur
+              dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam
+              totam vel error dicta et.Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab
+              pariatur dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam
+              laboriosam totam vel error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+              perspiciatis! Ab pariatur dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet
+              inventore illum ullam laboriosam totam vel error dicta et.</p>
+          </div>
+          <div class="tabs__element" data-tabs="element">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur dolor alias
+              debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam totam vel
+              error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur
+              dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam
+              totam vel error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab
+              pariatur dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam
+              laboriosam totam vel error dicta et.</p>
+          </div>
+          <div class="tabs__element" data-tabs="element">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur dolor alias
+              debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam totam vel
+              error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur
+              dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam
+              totam vel error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab
+              pariatur dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam
+              laboriosam totam vel error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+              perspiciatis! Ab pariatur dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet
+              inventore illum ullam laboriosam totam vel error dicta et.Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Alias, perspiciatis! Ab pariatur dolor alias debitis molestiae reprehenderit tempora
+              ducimus, atque amet inventore illum ullam laboriosam totam vel error dicta et. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur dolor alias debitis molestiae reprehenderit
+              tempora ducimus, atque amet inventore illum ullam laboriosam totam vel error dicta et.</p>
+          </div>
+        </div>
+  </div>
+  </section>
+
+  <!-- <section class="intro">
         <div class="container">
           <h1>Тестовая страница.</h1>
           <p>На данной странице показан пример модальных окон.</p>
@@ -91,78 +224,78 @@
           <p><a class="btn" href="#" data-open-modal="feedback">modal--feedback link</a></p>
           <p><a class="btn" href="#" data-open-modal="success">modal--success link</a></p>
         </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__container">
-          <a class="footer__logo footer__logo--image" href="index.html">
-            <picture>
-              <source media="(min-width: 1200px)" srcset="img/footer/logo-desktop.svg" />
-              <source media="(min-width: 768px)" srcset="img/footer/logo-tablet.svg" />
-              <img src="img/footer/logo-mobile.svg" alt="Логотип Fitness2.0" />
-            </picture>
-          </a>
+      </section> -->
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__container">
+        <a class="footer__logo footer__logo--image" href="index.html">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/footer/logo-desktop.svg" />
+            <source media="(min-width: 768px)" srcset="img/footer/logo-tablet.svg" />
+            <img src="img/footer/logo-mobile.svg" alt="Логотип Fitness2.0" />
+          </picture>
+        </a>
 
-          <section class="navigation">
-            <div class="navigation__container">
-              <h3 class="navigation__title visually-hidden">Навигация</h3>
-              <ul class="navigation__list reset-list">
-                <li class="navigation__item navigation__item--grid1"></li>
-                <li class="navigation__item navigation__item--grid2">
-                  <a class="navigation__link" href="#services" alt="Раздел Услуги">Услуги</a>
-                </li>
-                <li class="navigation__item navigation__item--grid3">
-                  <a class="navigation__link" href="#season-tickets" alt="Раздел Абонементы">Абонементы</a>
-                </li>
-                <li class="navigation__item navigation__item--grid4">
-                  <a class="navigation__link" href="#promotions" alt="Раздел Акции">Акция</a>
-                </li>
-                <li class="navigation__item navigation__item--grid5">
-                  <a class="navigation__link" href="#coaches" alt="Раздел Тренеры">Тренеры</a>
-                </li>
-                <li class="navigation__item navigation__item--grid6">
-                  <a class="navigation__link" href="#Schedule" alt="Раздел Расписание">Расписание</a>
-                </li>
-              </ul>
-            </div>
-          </section>
+        <section class="navigation">
+          <div class="navigation__container">
+            <h3 class="navigation__title visually-hidden">Навигация</h3>
+            <ul class="navigation__list reset-list">
+              <li class="navigation__item navigation__item--grid1"></li>
+              <li class="navigation__item navigation__item--grid2">
+                <a class="navigation__link" href="#services" alt="Раздел Услуги">Услуги</a>
+              </li>
+              <li class="navigation__item navigation__item--grid3">
+                <a class="navigation__link" href="#season-tickets" alt="Раздел Абонементы">Абонементы</a>
+              </li>
+              <li class="navigation__item navigation__item--grid4">
+                <a class="navigation__link" href="#promotions" alt="Раздел Акции">Акция</a>
+              </li>
+              <li class="navigation__item navigation__item--grid5">
+                <a class="navigation__link" href="#coaches" alt="Раздел Тренеры">Тренеры</a>
+              </li>
+              <li class="navigation__item navigation__item--grid6">
+                <a class="navigation__link" href="#Schedule" alt="Раздел Расписание">Расписание</a>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-          <section class="socials">
-            <div class="socials__container">
-              <h3 class="socials__title visually-hidden">Социальные сети</h3>
-              <ul class="socials__list reset-list">
-                <li class="socials__item">
-                  <a class="socials__link socials__link--vk" href="#" alt="Ссылка на Вконтакте">
-                    <svg class="socials__icon" width="25" height="25">
-                      <use xlink:href="img/sprite.svg#vk"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a class="socials__link socials__link--ok" href="#" alt="Ссылка на Одноклассники">
-                    <svg class="socials__icon" width="25" height="25">
-                      <use xlink:href="img/sprite.svg#ok"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a class="socials__link socials__link--reddit" href="#" alt="Ссылка на Реддит">
-                    <svg class="socials__icon" width="25" height="25">
-                      <use xlink:href="img/sprite.svg#reddit"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </section>
-        </div>
+        <section class="socials">
+          <div class="socials__container">
+            <h3 class="socials__title visually-hidden">Социальные сети</h3>
+            <ul class="socials__list reset-list">
+              <li class="socials__item">
+                <a class="socials__link socials__link--vk" href="#" alt="Ссылка на Вконтакте">
+                  <svg class="socials__icon" width="25" height="25">
+                    <use xlink:href="img/sprite.svg#vk"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link socials__link--ok" href="#" alt="Ссылка на Одноклассники">
+                  <svg class="socials__icon" width="25" height="25">
+                    <use xlink:href="img/sprite.svg#ok"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link socials__link--reddit" href="#" alt="Ссылка на Реддит">
+                  <svg class="socials__icon" width="25" height="25">
+                    <use xlink:href="img/sprite.svg#reddit"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
       </div>
-    </footer>
+    </div>
+  </footer>
   </div>
 
   <!-- Модалки -->
-  <div class="modal modal--preload" data-modal="feedback">
+  <!-- <div class="modal modal--preload" data-modal="feedback">
     <div class="modal__wrapper">
       <div class="modal__overlay" data-close-modal></div>
       <div class="modal__content">
@@ -188,7 +321,7 @@
         </button>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <script src="js/vendor.min.js"></script>
   <script src="js/main.min.js"></script>

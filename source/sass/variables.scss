@@ -1,27 +1,17 @@
 // Colors
 
-:root {
-    --color-text-base: #102654;
-    --color-text-for-dark: #ffffff;
-    --color-text-additional: #103aae;
-    --color-btn-for-dark: #ffffff;
-    --color-btn-for-ligth: #102654;
-    --color-bg-base: #ffffff;
-    --color-bg-additional: #f8f9fc;
-    --color-bg-banners: #ed0233;
-    --color-bg-dark: #102654;
-    --color-bg-footer: #030A1A;
-    --color-icons-for-dark: #ffffff;
-    --color-icons-for-ligth: #102654;
-    --color-forms-base: #ffffff;
-    --color-forms-err: #ff121f;
-  }
 // ---------------------------------
 
 // Default
 
 $color-default-black:               #000000;
+$color-default-sapphire:            #102654;
+$color-default-black-russian:       #030a1a;
+$color-default-egyptian-blue:       #103aae;
 $color-default-white:               #ffffff;
+$color-default-ghost-white:         #f8f9fc;
+$color-default-torch-red:           #ed0233;
+$color-default-torch-red-err:       #ff121f;
 $color-transparent:                 rgba(255, 255, 255, 0);
 
 // Project palette
@@ -33,6 +23,7 @@ $color-torch-red:                   #ff1553;
 // Gradient
 
 $black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
+$red-to-blue-to-red:                conic-gradient(from 0.21turn at 20% 35%, rgba(184, 0, 39, 1) 2%, rgba(0, 61, 133, 1) 27%, rgba(0, 61, 133, 1) 35%,  rgba(184, 0, 39, 1));
 
 // Typography
 // ---------------------------------

@@ -21,12 +21,12 @@
 
 .socials__item {
     min-width: 25px;
-    background-color: var(--color-text-for-dark);
+    background-color: $color-default-white;
     border-radius: 50% 50%;
 }
 
 .socials__item:hover {
-    background-color: var(--color-text-additional);
+    background-color: $color-default-egyptian-blue;
 }
 
 .socials__link {
@@ -36,17 +36,17 @@
 
 .socials__link:hover,
 .socials__link:focus {
-    fill: var(--color-text-for-dark);
+    fill: $color-default-white;
 }
 
 .socials__link:focus {
-    background-color: var(--color-text-additional);
+    background-color: $color-default-egyptian-blue;
     border-radius: 50% 50%;
     outline: none;
 }
 
 .socials__link:active {
-    background-color: var(--color-bg-dark);
+    background-color: $color-default-sapphire;
 }
 
 .socials__link:disabled {

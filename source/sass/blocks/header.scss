@@ -1,10 +1,11 @@
 .header {
     width: 100%;
-    background-color: red;
+    position: absolute;
 }
 
 .header__container {
     width: 89%;
+    min-width: 1160px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -12,10 +13,12 @@
 
     @include vp-1199 {
         width: 88%;
+        min-width: 678px;
     }
 
     @include vp-767 {
         width: 91%;
+        min-width: 290px;
     }
 }
 
@@ -37,7 +40,7 @@
     font-style: normal;
     font-size: 26px;
     line-height: 31px;
-    color: var(--color-text-for-dark);
+    color: $color-default-white;
     text-decoration: none;
     margin-top: 30px;
 
@@ -53,5 +56,6 @@
         font-size: 20px;
         line-height: 24px;
         margin-top: 20px;
+        letter-spacing: 0.02em;
     }
 }

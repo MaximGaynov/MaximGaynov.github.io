@@ -1,22 +1,70 @@
-import {iosVhFix} from './utils/ios-vh-fix';
-import {initModals} from './modules/modals/init-modals';
-import {Form} from './modules/form-validate/form';
+import { iosVhFix } from "./utils/ios-vh-fix";
+import { initModals } from "./modules/modals/init-modals";
+import { Form } from "./modules/form-validate/form";
+import { initTabs } from "./utils/init-tabs";
 
 // ---------------------------------
 
-window.addEventListener('DOMContentLoaded', () => {
-
+window.addEventListener("DOMContentLoaded", () => {
   // Utils
   // ---------------------------------
 
   iosVhFix();
+  initTabs();
 
   // Modules
+  function findVideos() {
+    let video = document.querySelector('#video');
+    setupVideo(video);
+  }
+
+  function setupVideo(someVideo) {
+    let link = video.querySelector('#link');
+    let media = video.querySelector('#media');
+    let button = video.querySelector('#button');
+    let id = parseMediaURL(media);
+
+    video.addEventListener('click', () => {
+        let iframe = createIframe(id);
+
+        link.remove();
+        button.remove();
+        video.appendChild(iframe);
+    });
+
+    link.removeAttribute('href');
+  }
+
+  function parseMediaURL(media) {
+    let url = media.src;
+    
+    return url;
+  }
+
+  function createIframe(id) {
+    let iframe = document.createElement('iframe');
+
+    iframe.setAttribute('allowfullscreen', '');
+    iframe.setAttribute('allow', 'autoplay');
+    iframe.setAttribute('src', generateURL());
+    iframe.classList.add('gym-video__media');
+
+    return iframe;
+  }
+
+  function generateURL() {
+    let query = '?rel=0&showinfo=0&autoplay=1';
+
+    return 'https://www.youtube.com/embed/' + '9TZXsZItgdw' + query;
+  }
+
+  findVideos();
+
   // ---------------------------------
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'
   // в load следует добавить скрипты, не участвующие в работе первого экрана
-  window.addEventListener('load', () => {
+  window.addEventListener("load", () => {
     initModals();
     const form = new Form();
     window.form = form;

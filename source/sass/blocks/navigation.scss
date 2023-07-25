@@ -63,7 +63,7 @@
 }
 
 .navigation__item:focus {
-    outline: 1px solid var(--color-text-for-dark);
+    outline: 1px solid $color-default-white;
 }
 
 .navigation__item:disabled {
@@ -76,7 +76,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: var(--color-text-for-dark);
+    color: $color-default-white;
     text-decoration: none;
     padding: 5px 10px 5px 10px;
 
