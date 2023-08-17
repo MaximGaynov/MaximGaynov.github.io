@@ -2,6 +2,7 @@ import { iosVhFix } from "./utils/ios-vh-fix";
 import { initModals } from "./modules/modals/init-modals";
 import { Form } from "./modules/form-validate/form";
 import { initTabs } from "./utils/init-tabs";
+import { initAccordions } from "./utils/init-accordion";
 
 // ---------------------------------
 
@@ -11,8 +12,11 @@ window.addEventListener("DOMContentLoaded", () => {
 
   iosVhFix();
   initTabs();
+  initAccordions();
+  
 
   // Modules
+
   function findVideos() {
     let video = document.querySelector('#video');
     setupVideo(video);
@@ -59,6 +63,8 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   findVideos();
+
+
 
   // ---------------------------------
 

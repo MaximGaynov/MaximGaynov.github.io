@@ -1,0 +1,84 @@
+.swiper-coaches {
+    width: 91.2%;
+    margin: 0 auto;
+
+    @include vp-1199 {
+        width: 83.48%;
+    }
+
+    @include vp-767 {
+        width: 77.93%;
+    }
+}
+
+.swiper-coaches__title {
+    font-family: "AlumniSans", Verdana, sans-serif;
+    font-style: normal;
+    font-size: 54px;
+    line-height: 64.8px;
+    color: $color-default-sapphire;
+    letter-spacing: 0.03em;
+    padding-bottom: 48px;
+    margin: 0;
+    
+    @include vp-1199 {
+        text-align: center;
+        padding-bottom: 31px;
+    }
+
+    @include vp-767 {
+        padding-bottom: 50px;
+    }
+}
+
+.swiper-coaches__wrapper {
+    margin: 0 auto;
+}
+
+.swiper-coaches__slide {
+    position: relative;
+    outline: none;
+}
+
+.swiper-coaches__photo {
+    width: 100%;
+}
+
+.swiper-slide:hover .coaches-info,
+.swiper-slide:focus .coaches-info{
+    display: block;
+}
+
+.swiper-slide:hover .swiper-coaches__name,
+.swiper-slide:focus .swiper-coaches__name {
+    display: none;
+}
+
+.swiper-coaches__name {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    font-family: "RobotoCondensed", Verdana, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-default-white;
+    margin: 0;
+}
+
+.swiper-coaches__button-next {
+    right: 0;
+}
+
+.swiper-coaches__button-prev {
+    left: 0;
+}
+
+.swiper-coaches__button-next,
+.swiper-coaches__button-prev {
+    top: 65%;
+    color: $color-default-dark-grey;
+    --swiper-navigation-size: 32px;
+}

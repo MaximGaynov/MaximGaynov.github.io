@@ -30,9 +30,21 @@
 @import "blocks/hero";
 @import "blocks/gym";
 @import "blocks/gym-video";
-@import "blocks/season-tickets";
-@import "vendor/data-tabs";
-@import "vendor/tabs";
+@import "blocks/data-tabs";
+@import "blocks/tabs";
+@import "blocks/super-games";
+@import "blocks/coaches";
+@import "vendor/swiper";
+@import "blocks/swiper-coaches";
+@import "blocks/coaches-info";
+@import "blocks/advantages";
+@import "blocks/promotions";
+@import "blocks/FAQ";
+@import "blocks/data-accordion";
+@import "blocks/accordion";
+@import "blocks/reviews";
+@import "blocks/swiper-reviews";
+
 // ---------------------------------
 
 // ❗❗❗ запрещено использовать изображения в css, касается как jpg \ png, так и svg
