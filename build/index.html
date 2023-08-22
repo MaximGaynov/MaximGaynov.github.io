@@ -525,8 +525,8 @@
               </div>
             </div>
           </div>
-          <div class="swiper-button-next swiper-coaches__button-next"></div>
-          <div class="swiper-button-prev swiper-coaches__button-prev"></div>
+          <div class="swiper-button-next coaches__button-next"></div>
+          <div class="swiper-button-prev coaches__button-prev"></div>
         </div>
       </section>
 
@@ -867,7 +867,7 @@
       <section class="reviews">
         <div class="reviews__container">
           <h2 class="reviews__title">Отзывы</h2>
-          <div class="swiper mySwiper-reviews swiper-reviews">
+          <div class="swiper-reviews swiper mySwiper-reviews">
             <div class="swiper-wrapper swiper-reviews__wrapper">
               <div class="swiper-slide swiper-reviews__slide">
                 <picture class="swiper-reviews__photo">
@@ -879,8 +879,8 @@
                         img/reviews/orlova.png        1x,
                         img/reviews/orlova-retina.png 2x
                       " />
-                  <img class="swiper-reviews__media" src="img/reviews/orlova-mobile.png" srcset="img/reviews/orlova-mobile-retina.png 2x"
-                    alt="Фотография человека, оставившего отзыв" />
+                  <img class="swiper-reviews__media" src="img/reviews/orlova-mobile.png"
+                    srcset="img/reviews/orlova-mobile-retina.png 2x" alt="Фотография человека, оставившего отзыв" />
                 </picture>
                 <div class="swiper-reviews__information">
                   <h3 class="swiper-reviews__name">Анна Орлова</h3>
@@ -898,8 +898,8 @@
                         img/reviews/orlova.png        1x,
                         img/reviews/orlova-retina.png 2x
                       " />
-                  <img class="swiper-reviews__media" src="img/reviews/orlova-mobile.png" srcset="img/reviews/orlova-mobile-retina.png 2x"
-                    alt="Фотография человека, оставившего отзыв" />
+                  <img class="swiper-reviews__media" src="img/reviews/orlova-mobile.png"
+                    srcset="img/reviews/orlova-mobile-retina.png 2x" alt="Фотография человека, оставившего отзыв" />
                 </picture>
                 <div class="swiper-reviews__information">
                   <h3 class="swiper-reviews__name">Анна Орлова</h3>
@@ -917,8 +917,8 @@
                         img/reviews/orlova.png        1x,
                         img/reviews/orlova-retina.png 2x
                       " />
-                  <img class="swiper-reviews__media" src="img/reviews/orlova-mobile.png" srcset="img/reviews/orlova-mobile-retina.png 2x"
-                    alt="Фотография человека, оставившего отзыв" />
+                  <img class="swiper-reviews__media" src="img/reviews/orlova-mobile.png"
+                    srcset="img/reviews/orlova-mobile-retina.png 2x" alt="Фотография человека, оставившего отзыв" />
                 </picture>
                 <div class="swiper-reviews__information">
                   <h3 class="swiper-reviews__name">Анна Орлова</h3>
@@ -936,8 +936,8 @@
                         img/reviews/orlova.png        1x,
                         img/reviews/orlova-retina.png 2x
                       " />
-                  <img class="swiper-reviews__media" src="img/reviews/orlova-mobile.png" srcset="img/reviews/orlova-mobile-retina.png 2x"
-                    alt="Фотография человека, оставившего отзыв" />
+                  <img class="swiper-reviews__media" src="img/reviews/orlova-mobile.png"
+                    srcset="img/reviews/orlova-mobile-retina.png 2x" alt="Фотография человека, оставившего отзыв" />
                 </picture>
                 <div class="swiper-reviews__information">
                   <h3 class="swiper-reviews__name">Анна Орлова</h3>
@@ -947,10 +947,61 @@
               </div>
             </div>
           </div>
-          <div class="swiper-button-next swiper-reviews__button-next"></div>
-          <div class="swiper-button-prev swiper-reviews__button-prev"></div>
+          <div class="swiper-button-next reviews__button-next"></div>
+          <div class="swiper-button-prev reviews__button-prev"></div>
         </div>
       </section>
+
+      <div class="section-wrapper">
+        <section class="free-lesson">
+          <div class="free-lesson__container" data-form-validate="data-form-validate" data-callback="base">
+            <h2 class="free-lesson__title">Бесплатное занятие</h2>
+            <form class="free-lesson__form" action="https://echo.htmlacademy.ru" method="post">
+              <fieldset class="free-lesson__personal">
+                <legend class="free-lesson__legend visually-hidden">Персональные данные для заявки</legend>
+                <div class="custom-input free-lesson__wrapper" data-validate-type="text" data-limitation="name" data-message-base="Обязательное поле" data-message-extra="Поле заполнено неверно" data-required="data-required">
+                  <label><span class="custom-input__label free-lesson__label"></span>
+                    <input class="free-lesson__name" type="text" name="user-name-1" placeholder="Имя" />
+                  </label>
+                </div>
+                <div class="custom-input free-lesson__wrapper" data-validate-type="phone" data-on-input-validate="data-on-input-validate" data-message-base="Обязательное поле" data-message-extra="Поле заполнено неверно" data-required="data-required">
+                  <label><span class="custom-input__label free-lesson__label"></span>
+                    <input class="free-lesson__tel" type="tel" name="user-phone" placeholder="Телефон" />
+                  </label>
+                </div>
+              </fieldset>
+              <button class="free-lesson__send" type="submit">Отправить</button>
+            </form>
+          </div>
+        </section>
+        <section class="contacts">
+          <div class="contacts__container">
+            <h2 class="contacts__title">Контакты</h2>
+            <ul class="contacts__list reset-list">
+              <li class="contacts__item contacts__item--border">
+                <div class="contacts__wrapper">
+                  <h3 class="contacts__heading">Адрес:</h3>
+                  <p class="contacts__text">г. Омск, ул. 60 лет Октября, 7</p>
+                </div>
+                <div class="contacts__wrapper">
+                  <h3 class="contacts__heading">График работы:</h3>
+                  <p class="contacts__text">Пн-Вс: с 8:00 до 22:00</p>
+                </div>
+              </li>
+              <li class="contacts__item">
+                <div class="contacts__wrapper">
+                  <h3 class="contacts__heading">Телефон:</h3>
+                  <p class="contacts__text">8-800-555-55-55</p>
+                </div>
+                <div class="contacts__wrapper">
+                  <h3 class="contacts__heading">Email:</h3>
+                  <p class="contacts__text">omsk@supergym.ru</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
 
     </main>
 

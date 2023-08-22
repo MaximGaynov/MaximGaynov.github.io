@@ -24,3 +24,18 @@
         width: 90.625%;
     }
 }
+
+.coaches__button-next {
+    right: 0;
+}
+
+.coaches__button-prev {
+    left: 0;
+}
+
+.coaches__button-next,
+.coaches__button-prev {
+    top: 65%;
+    color: $color-default-dark-grey;
+    --swiper-navigation-size: 32px;
+}

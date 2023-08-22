@@ -91,24 +91,3 @@
         margin-bottom: 40px;
     }
 }
-
-.swiper-reviews__button-next {
-    right: 0;
-}
-
-.swiper-reviews__button-prev {
-    left: 0;
-}
-
-.swiper-reviews__button-next,
-.swiper-reviews__button-prev {
-    top: 65%;
-    color: $color-default-sapphire;
-    --swiper-navigation-size: 32px;
-    width: calc(var(--swiper-navigation-size)/32*16);
-
-    @include vp-767 {
-        --swiper-navigation-size: 19px;
-        width: calc(var(--swiper-navigation-size)/19*10);
-    }
-}
