@@ -44,11 +44,11 @@
       }
 
       &:focus {
-        outline: 1px solid rgba($color-default-white, 1.0);
+        outline: 1px solid rgba($color-default-white, 1);
       }
 
       &:active {
-        outline: 1px solid rgba($color-default-white, 1.0);
+        outline: 1px solid rgba($color-default-white, 1);
       }
 
       &:disabled {
@@ -82,17 +82,19 @@
 
   &.is-invalid {
     border-bottom: 1px solid $color-default-torch-red-err;
-      &:focus,
-      &:hover {
-        border-bottom: 1px solid rgba($color-default-torch-red-err, 0.5);
-      }
+
+    &:focus,
+    &:hover {
+      border-bottom: 1px solid rgba($color-default-torch-red-err, 0.5);
+    }
   }
 
   &.is-valid {
-  border-bottom: 1px solid #22b259;
+    border-bottom: 1px solid #22b259;
+
     &:focus,
     &:hover {
-        border-bottom: 1px solid rgba(#22b259, 0.5);
+      border-bottom: 1px solid rgba(#22b259, 0.5);
     }
   }
 

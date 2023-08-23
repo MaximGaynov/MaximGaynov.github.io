@@ -1,39 +1,39 @@
-import { iosVhFix } from "./utils/ios-vh-fix";
-import { initModals } from "./modules/modals/init-modals";
-import { Form } from "./modules/form-validate/form";
-import { initTabs } from "./utils/init-tabs";
-import { initAccordions } from "./utils/init-accordion";
+import {iosVhFix} from './utils/ios-vh-fix';
+import {initModals} from './modules/modals/init-modals';
+import {Form} from './modules/form-validate/form';
+import {initTabs} from './utils/init-tabs';
+import {initAccordions} from './utils/init-accordion';
 
 // ---------------------------------
 
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener('DOMContentLoaded', () => {
   // Utils
   // ---------------------------------
 
   iosVhFix();
   initTabs();
   initAccordions();
-  
 
   // Modules
 
-  function findVideos() {
-    let video = document.querySelector('#video');
+  let video = document.querySelector('#video');
+
+  function playVideos() {
     setupVideo(video);
   }
 
-  function setupVideo(someVideo) {
+  function setupVideo() {
     let link = video.querySelector('#link');
     let media = video.querySelector('#media');
     let button = video.querySelector('#button');
     let id = parseMediaURL(media);
 
     video.addEventListener('click', () => {
-        let iframe = createIframe(id);
+      let iframe = createIframe(id);
 
-        link.remove();
-        button.remove();
-        video.appendChild(iframe);
+      link.remove();
+      button.remove();
+      video.appendChild(iframe);
     });
 
     link.removeAttribute('href');
@@ -41,11 +41,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
   function parseMediaURL(media) {
     let url = media.src;
-    
     return url;
   }
 
-  function createIframe(id) {
+  function createIframe() {
     let iframe = document.createElement('iframe');
 
     iframe.setAttribute('allowfullscreen', '');
@@ -62,15 +61,13 @@ window.addEventListener("DOMContentLoaded", () => {
     return 'https://www.youtube.com/embed/' + '9TZXsZItgdw' + query;
   }
 
-  findVideos();
-
-
+  playVideos();
 
   // ---------------------------------
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'
   // в load следует добавить скрипты, не участвующие в работе первого экрана
-  window.addEventListener("load", () => {
+  window.addEventListener('load', () => {
     initModals();
     const form = new Form();
     window.form = form;

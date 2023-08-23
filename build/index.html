@@ -170,13 +170,13 @@
         </div>
       </section>
 
-      <section class="tabs no-transition-global" data-tabs="parent">
+      <section class="tabs no-transition-global" data-tabs="parent" id="season-tickets">
         <h2 class="tabs__title">Абонементы</h2>
         <div class="tabs__container">
           <div class="tabs__controls" data-tabs="controls">
-            <button class="tabs__control btn is-active" type="button" data-tabs="control">1&nbsp;месяц</button>
-            <button class="tabs__control btn" type="button" data-tabs="control">6&nbsp;месяцев</button>
-            <button class="tabs__control btn" type="button" data-tabs="control">12&nbsp;месяцев</button>
+            <button class="tabs__control btn is-active" type="button" data-tabs="control" aria-label="выбрать абонемент на 1 месяц">1&nbsp;месяц</button>
+            <button class="tabs__control btn" type="button" data-tabs="control" aria-label="выбрать абонемент на 6 месяцев">6&nbsp;месяцев</button>
+            <button class="tabs__control btn" type="button" data-tabs="control" aria-label="выбрать абонемент на 12 месяцев">12&nbsp;месяцев</button>
           </div>
           <div class="tabs__content" data-tabs="content">
             <div class="tabs__element" data-tabs="element">
@@ -268,6 +268,26 @@
             </div>
           </div>
         </div>
+        <picture class="tabs__photo">
+          <source type="image/webp" media="(min-width: 1200px)" srcset="
+            img/tabs/weight-desktop.webp        1x,
+            img/tabs/weight-desktop-retina.webp 2x
+          " />
+          <source type="image/webp" media="(min-width: 768px)" srcset="
+            img/tabs/weight-tablet.webp        1x,
+            img/tabs/weight-tablet-retina.webp 2x
+          " />
+          <source media="(min-width: 1200px)" srcset="
+            img/tabs/weight-desktop.png        1x,
+            img/tabs/weight-desktop-retina.png 2x
+          " />
+          <source media="(min-width: 768px)" srcset="
+            img/tabs/weight-tablet.png        1x,
+            img/tabs/weight-tablet-retina.png 2x
+          " />
+          <img class="tabs__media" src="img/tabs/weight-desktop.png"
+            srcset="img/tabs/weight-desktop-retina.png 2x" alt="Фотография мужчины, бьющего снег" />
+        </picture>
       </section>
 
       <section class="super-games">
@@ -312,15 +332,15 @@
                 img/super-games/man-tablet-retina.png 2x
               " />
               <img class="super-games__media" src="img/super-games/man-mobile.png"
-                srcset="img/super-games/man-mobile-retina.png 2x" alt="Фотография мужчины бьющего снег" />
+                srcset="img/super-games/man-mobile-retina.png 2x" alt="Фотография мужчины, бьющего снег" />
             </picture>
           </div>
         </div>
       </section>
 
-      <section class="coaches">
+      <section class="coaches" id="coaches">
         <div class="coaches__container">
-          <div class="swiper mySwiper swiper-coaches">
+          <div class="swiper-coaches swiper mySwiper-coaches">
             <h2 class="swiper-coaches__title">Тренеры</h2>
             <div class="swiper-wrapper swiper-coaches__wrapper">
               <div class="swiper-slide swiper-coaches__slide" tabindex="0">
@@ -360,7 +380,7 @@
               " />
                   <img class="swiper-coaches__photo" src="img/coaches/lavrov-desktop.png"
                     srcset="img/coaches/lavrov-desktop-retina.png 2x"
-                    alt="Фотография фитнесс-инструктора Анны Павловой" />
+                    alt="Фотография фитнесс-инструктора Алексея Лаврова" />
                 </picture>
                 <p class="swiper-coaches__name">Алексей&nbsp;Лавров</p>
                 <div class="coaches-info">
@@ -460,7 +480,7 @@
               " />
                   <img class="swiper-coaches__photo" src="img/coaches/lavrov-desktop.png"
                     srcset="img/coaches/lavrov-desktop-retina.png 2x"
-                    alt="Фотография фитнесс-инструктора Анны Павловой" />
+                    alt="Фотография фитнесс-инструктора Алексея Лаврова" />
                 </picture>
                 <p class="swiper-coaches__name">Алексей&nbsp;Лавров</p>
                 <div class="coaches-info">
@@ -583,7 +603,7 @@
         </div>
       </section>
 
-      <section class="promotions">
+      <section class="promotions" id="promotions">
         <h2 class="promotions__title">Акции</h2>
         <div class="promotions__container">
           <div class="promotions__wrapper-1">
@@ -974,7 +994,7 @@
             </form>
           </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="Schedule">
           <div class="contacts__container">
             <h2 class="contacts__title">Контакты</h2>
             <ul class="contacts__list reset-list">
@@ -1022,7 +1042,7 @@
               <ul class="navigation__list reset-list">
                 <li class="navigation__item navigation__item--grid1"></li>
                 <li class="navigation__item navigation__item--grid2">
-                  <a class="navigation__link" href="#services">Услуги</a>
+                  <a class="navigation__link" href="#">Услуги</a>
                 </li>
                 <li class="navigation__item navigation__item--grid3">
                   <a class="navigation__link" href="#season-tickets">Абонементы</a>
@@ -1077,5 +1097,4 @@
   <script src="js/main.min.js"></script>
 
 </body>
-
 </html>

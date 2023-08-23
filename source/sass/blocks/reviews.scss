@@ -1,74 +1,74 @@
 .reviews {
-    width: 100%;
-    padding: 120px 0 120px 0;
+  width: 100%;
+  padding: 120px 0 120px 0;
 
-    @include vp-1199 {
-        padding: 91px 0 100px 0;
-    }
+  @include vp-1199 {
+    padding: 91px 0 100px 0;
+  }
 
-    @include vp-767 {
-        padding: 63px 0 70px 0;
-    }
+  @include vp-767 {
+    padding: 63px 0 70px 0;
+  }
 }
 
 .reviews__container {
-    width: 49.195%;
-    min-width: 672px;
-    margin: 0 auto;
-    position: relative;
+  width: 49.19%;
+  min-width: 672px;
+  margin: 0 auto;
+  position: relative;
 
-    @include vp-1199 {
-        width: 88.28%;
-        min-width: 678px;
-    }
+  @include vp-1199 {
+    width: 88.28%;
+    min-width: 678px;
+  }
 
-    @include vp-767 {
-        width: 90.625%;
-        min-width: 290px;
-    }
+  @include vp-767 {
+    width: 90.62%;
+    min-width: 290px;
+  }
 }
 
 .reviews__title {
-    font-family: "AlumniSans", Verdana, sans-serif;
-    font-style: normal;
-    font-size: 54px;
-    line-height: 64.8px;
-    color: $color-default-sapphire;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin: 0;
-    margin-bottom: 37px;
+  font-family: "AlumniSans", sans-serif;
+  font-style: normal;
+  font-size: 54px;
+  line-height: 64.8px;
+  color: $color-default-sapphire;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 37px;
 
-    @include vp-1199 {
-        font-size: 40px;
-        line-height: 50.4px;
-        margin-bottom: 40px;
-    }
+  @include vp-1199 {
+    font-size: 40px;
+    line-height: 50.4px;
+    margin-bottom: 40px;
+  }
 
-    @include vp-767 {
-        font-size: 32px;
-        line-height: 38.4px;
-        margin-bottom: 42px;
-    }
+  @include vp-767 {
+    font-size: 32px;
+    line-height: 38.4px;
+    margin-bottom: 42px;
+  }
 }
 
 .reviews__button-next {
-    right: 0;
+  right: 0;
 }
 
 .reviews__button-prev {
-    left: 0;
+  left: 0;
 }
 
 .reviews__button-next,
 .reviews__button-prev {
-    top: 65%;
-    color: $color-default-sapphire;
-    --swiper-navigation-size: 32px;
-    width: calc(var(--swiper-navigation-size)/32*16);
+  top: 65%;
+  color: $color-default-sapphire;
+  --swiper-navigation-size: 32px;
+  width: calc(var(--swiper-navigation-size)/32*16);
 
-    @include vp-767 {
-        --swiper-navigation-size: 19px;
-        width: calc(var(--swiper-navigation-size)/19*10);
-    }
+  @include vp-767 {
+    --swiper-navigation-size: 19px;
+    width: calc(var(--swiper-navigation-size)/19*10);
+  }
 }

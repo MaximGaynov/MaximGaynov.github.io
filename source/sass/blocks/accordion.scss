@@ -40,14 +40,14 @@
     }
   }
 
-  &__button:hover:before,
-  &__button:hover:after {
+  &__button:hover::before,
+  &__button:hover::after {
     transform: rotate(180deg);
-    background-color: $color-default-white; 
+    background-color: $color-default-white;
   }
 
   &__element.is-active > &__button,
-  &__element.is-active > &__button:hover  {
+  &__element.is-active > &__button:hover {
     position: absolute;
     top: 25%;
     left: calc(100% - 21px);
@@ -60,21 +60,21 @@
     }
   }
 
-  &__element.is-active > &__button:before,
-  &__element.is-active > &__button:after {
+  &__element.is-active > &__button::before,
+  &__element.is-active > &__button::after {
     transform: rotate(180deg);
     background-color: $color-default-white;
   }
 
-  &__element.is-active > &__button:hover:before,
-  &__element.is-active > &__button:hover:after {
+  &__element.is-active > &__button:hover::before,
+  &__element.is-active > &__button:hover::after {
     transform: rotate(180deg);
     background-color: $color-default-white;
   }
 
-  &__element > &__button:before,
-  &__element > &__button:after {
-    content: '';
+  &__element > &__button::before,
+  &__element > &__button::after {
+    content: "";
     width: 61.15%;
     height: 1px;
     background: $color-default-resolution-blue;
@@ -85,13 +85,13 @@
     transition: all 0.3s ease-out;
   }
 
-  &__element > &__button:after {
+  &__element > &__button::after {
     transform: rotate(0);
     transition: all 0.3s ease-out;
   }
 
   &__question {
-    font-family: "RobotoCondensed", Verdana, sans-serif;
+    font-family: "RobotoCondensed", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 24px;
@@ -118,13 +118,13 @@
   &__question--tablet {
     @include vp-1199 {
       width: 70.5%;
-    } 
+    }
   }
 
   &__question--mobile {
     @include vp-767 {
       width: 82.07%;
-    } 
+    }
   }
 
   &__element.is-active > &__question {
@@ -132,7 +132,7 @@
 
     @include vp-767 {
       padding: 20px 0 12px 0;
-    } 
+    }
   }
 
   &__content {
@@ -148,7 +148,7 @@
   }
 
   &__answer {
-    font-family: "RobotoCondensed", Verdana, sans-serif;
+    font-family: "RobotoCondensed", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 18px;

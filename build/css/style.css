@@ -1287,7 +1287,7 @@ button,
 }
 
 .header__logo--tel {
-  font-family: "AlumniSans", Verdana, sans-serif;
+  font-family: "AlumniSans", sans-serif;
   font-style: normal;
   font-size: 26px;
   line-height: 31px;
@@ -1454,7 +1454,7 @@ button,
 }
 
 .navigation__link {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1612,7 +1612,7 @@ button,
 }
 
 .hero__fitness {
-  font-family: "AlumniSans", Verdana, sans-serif;
+  font-family: "AlumniSans", sans-serif;
   font-style: normal;
   font-size: 92px;
   line-height: 110px;
@@ -1635,7 +1635,7 @@ button,
 }
 
 .hero__town {
-  font-family: "AlumniSans", Verdana, sans-serif;
+  font-family: "AlumniSans", sans-serif;
   font-style: normal;
   font-size: 48px;
   line-height: 58px;
@@ -1689,7 +1689,7 @@ button,
 }
 
 .hero__item-zone {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -1718,7 +1718,7 @@ button,
 .hero__link {
   display: block;
   width: 100%;
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
@@ -1835,7 +1835,7 @@ button,
 }
 
 .gym__title {
-  font-family: "AlumniSans", Verdana, sans-serif;
+  font-family: "AlumniSans", sans-serif;
   font-style: normal;
   font-size: 48px;
   line-height: 58px;
@@ -1859,7 +1859,7 @@ button,
 }
 
 .gym__area {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -1881,7 +1881,7 @@ button,
 }
 
 .gym__about {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
@@ -2128,6 +2128,8 @@ button,
 .tabs {
   width: 100%;
   background-color: #f8f9fc;
+  position: relative;
+  z-index: 2;
 }
 @media (max-width: 1199px) {
   .tabs {
@@ -2142,7 +2144,7 @@ button,
 }
 
 .tabs__title {
-  font-family: "AlumniSans", Verdana, sans-serif;
+  font-family: "AlumniSans", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 65px;
@@ -2217,7 +2219,7 @@ button,
 
 .tabs__control {
   width: auto;
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
@@ -2380,11 +2382,11 @@ button,
 }
 
 .tabs__border:hover {
-  background: linear-gradient(120deg, #ed0233 0%, #003EB7 75%);
+  background: linear-gradient(120deg, #ed0233 0%, #003eb7 75%);
 }
 
 .tabs__border:focus-within {
-  background: linear-gradient(120deg, #ed0233 0%, #003EB7 75%);
+  background: linear-gradient(120deg, #ed0233 0%, #003eb7 75%);
 }
 
 .tabs__wrapper {
@@ -2404,7 +2406,7 @@ button,
 }
 
 .tabs__heading {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 26px;
@@ -2427,7 +2429,7 @@ button,
 }
 
 .tabs__text {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -2438,7 +2440,7 @@ button,
 }
 
 .tabs__price {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 60px;
@@ -2457,12 +2459,12 @@ button,
 }
 
 .tabs__price::after {
-  content: url(/img/season-tickets/rubl.png);
+  content: url("/img/tabs/rubl.png");
   padding-left: 14px;
 }
 @media (max-width: 767px) {
   .tabs__price::after {
-    content: url(/img/season-tickets/rubl-mobile.png);
+    content: url("/img/tabs/rubl-mobile.png");
     padding-left: 10px;
   }
 }
@@ -2474,7 +2476,7 @@ button,
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 100px;
@@ -2496,7 +2498,7 @@ button,
 }
 
 .tabs__button {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
@@ -2523,13 +2525,13 @@ button,
 
 .tabs__border:hover .tabs__button {
   color: #ffffff;
-  background: linear-gradient(120deg, #ed0233 0%, #003EB7 75%);
+  background: linear-gradient(120deg, #ed0233 0%, #003eb7 75%);
   border: 2px solid;
 }
 
 .tabs__border:focus-within .tabs__button {
   color: #ffffff;
-  background: linear-gradient(120deg, #ed0233 0%, #003EB7 75%);
+  background: linear-gradient(120deg, #ed0233 0%, #003eb7 75%);
   border: 2px solid;
 }
 
@@ -2543,9 +2545,33 @@ button,
   overflow-x: hidden;
 }
 
+.tabs__photo {
+  position: absolute;
+  min-width: 321px;
+  min-height: 384px;
+  bottom: -16%;
+  right: -2.5%;
+  z-index: 0;
+}
+@media (max-width: 1199px) {
+  .tabs__photo {
+    min-width: 289px;
+    min-height: 345px;
+    bottom: -6%;
+    right: 0%;
+  }
+}
+@media (max-width: 767px) {
+  .tabs__photo {
+    display: none;
+  }
+}
+
 .super-games {
   width: 100%;
   padding: 120px 0 106px 0;
+  z-index: -1;
+  position: relative;
 }
 @media (max-width: 1199px) {
   .super-games {
@@ -2609,16 +2635,16 @@ button,
   display: grid;
   -ms-grid-columns: 73.18% 26.82%;
   grid-template-columns: 73.18% 26.82%;
-  -ms-grid-rows: 24.235% 24.235% 30.98% 20.56%;
-  grid-template-rows: 24.235% 24.235% 30.98% 20.56%;
+  -ms-grid-rows: 24.23% 24.23% 30.98% 20.56%;
+  grid-template-rows: 24.23% 24.23% 30.98% 20.56%;
 }
 @media (max-width: 1199px) {
   .super-games__wrapper {
     width: 69.18%;
     height: 63.4%;
     max-width: 202px;
-    -ms-grid-rows: 23.245% 23.245% 32.43% 21.08%;
-    grid-template-rows: 23.245% 23.245% 32.43% 21.08%;
+    -ms-grid-rows: 23.24% 23.24% 32.43% 21.08%;
+    grid-template-rows: 23.24% 23.24% 32.43% 21.08%;
     -ms-grid-columns: 72.28% 27.72%;
     grid-template-columns: 72.28% 27.72%;
   }
@@ -2632,7 +2658,7 @@ button,
 }
 
 .super-games__title {
-  font-family: "AlumniSans", Verdana, sans-serif;
+  font-family: "AlumniSans", sans-serif;
   font-style: normal;
   font-size: 82px;
   line-height: 79px;
@@ -2668,7 +2694,7 @@ button,
 }
 
 .super-games__item {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -2698,7 +2724,7 @@ button,
 }
 
 .super-games__number {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
@@ -2728,7 +2754,7 @@ button,
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -2750,7 +2776,7 @@ button,
 }
 
 .super-games__text {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -2781,7 +2807,6 @@ button,
 
 .super-games__link {
   border: 4px solid #ffffff;
-  /* text-transform: uppercase; */
   -ms-grid-column: 1;
       grid-column-start: 1;
   -ms-grid-column-span: 2;
@@ -2794,7 +2819,7 @@ button,
 }
 
 .super-games__link a {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
@@ -2845,52 +2870,6 @@ button,
 
 .super-games__media {
   width: 100%;
-}
-
-.coaches {
-  width: 100%;
-  padding-bottom: 105px;
-}
-@media (max-width: 1199px) {
-  .coaches {
-    padding-bottom: 100px;
-  }
-}
-@media (max-width: 767px) {
-  .coaches {
-    padding-bottom: 70px;
-  }
-}
-
-.coaches__container {
-  margin: 0 auto;
-  width: 93.12%;
-  position: relative;
-}
-@media (max-width: 1199px) {
-  .coaches__container {
-    width: 88.28%;
-  }
-}
-@media (max-width: 767px) {
-  .coaches__container {
-    width: 90.625%;
-  }
-}
-
-.coaches__button-next {
-  right: 0;
-}
-
-.coaches__button-prev {
-  left: 0;
-}
-
-.coaches__button-next,
-.coaches__button-prev {
-  top: 65%;
-  color: #afafaf;
-  --swiper-navigation-size: 32px;
 }
 
 /* stylelint-disable */
@@ -3732,6 +3711,52 @@ button.swiper-pagination-bullet {
   overflow: hidden;
 }
 
+.coaches {
+  width: 100%;
+  padding-bottom: 105px;
+}
+@media (max-width: 1199px) {
+  .coaches {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .coaches {
+    padding-bottom: 70px;
+  }
+}
+
+.coaches__container {
+  margin: 0 auto;
+  width: 93.12%;
+  position: relative;
+}
+@media (max-width: 1199px) {
+  .coaches__container {
+    width: 88.28%;
+  }
+}
+@media (max-width: 767px) {
+  .coaches__container {
+    width: 90.62%;
+  }
+}
+
+.coaches__button-next {
+  right: 0;
+}
+
+.coaches__button-prev {
+  left: 0;
+}
+
+.coaches__button-next,
+.coaches__button-prev {
+  top: 65%;
+  color: #afafaf;
+  --swiper-navigation-size: 32px;
+}
+
 .swiper-coaches {
   width: 91.2%;
   margin: 0 auto;
@@ -3748,7 +3773,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-coaches__title {
-  font-family: "AlumniSans", Verdana, sans-serif;
+  font-family: "AlumniSans", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -3799,7 +3824,7 @@ button.swiper-pagination-bullet {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
@@ -3824,7 +3849,7 @@ button.swiper-pagination-bullet {
 }
 
 .coaches-info__title {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
@@ -3834,7 +3859,7 @@ button.swiper-pagination-bullet {
 }
 
 .coaches-info__activity {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -3858,7 +3883,7 @@ button.swiper-pagination-bullet {
 }
 
 .coaches-info__item {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -3886,7 +3911,7 @@ button.swiper-pagination-bullet {
 }
 
 .advantages__title {
-  font-family: "AlumniSans", Verdana, sans-serif;
+  font-family: "AlumniSans", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -3918,8 +3943,8 @@ button.swiper-pagination-bullet {
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 32.7% 34.615% 32.7%;
-  grid-template-columns: 32.7% 34.615% 32.7%;
+  -ms-grid-columns: 32.7% 34.61% 32.7%;
+  grid-template-columns: 32.7% 34.61% 32.7%;
   -ms-grid-rows: (1fr)[2];
   grid-template-rows: repeat(2, 1fr);
 }
@@ -3964,6 +3989,37 @@ button.swiper-pagination-bullet {
 
 .advantages__item--grid-simulators {
   position: relative;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-row-span: 2;
+  grid-row-end: 3;
+  background-color: #1c3374;
+  margin: 0 60px 0 60px;
+}
+@media (max-width: 1199px) {
+  .advantages__item--grid-simulators {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 2;
+    grid-column-end: 3;
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 3;
+    margin: 0 108px 0 108px;
+  }
+}
+@media (max-width: 767px) {
+  .advantages__item--grid-simulators {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-row: 3;
+        grid-row-start: 3;
+    margin: 0;
+    min-height: 239px;
+  }
 }
 
 .advantages__item--grid-area {
@@ -4005,40 +4061,6 @@ button.swiper-pagination-bullet {
         grid-column-start: 1;
     -ms-grid-row: 2;
         grid-row-start: 2;
-  }
-}
-
-.advantages__item--grid-simulators {
-  -ms-grid-column: 2;
-      grid-column-start: 2;
-  -ms-grid-row: 1;
-      grid-row-start: 1;
-  -ms-grid-row-span: 2;
-  grid-row-end: 3;
-  background-color: #1c3374;
-  margin: 0 60px 0 60px;
-}
-@media (max-width: 1199px) {
-  .advantages__item--grid-simulators {
-    -ms-grid-column: 1;
-        grid-column-start: 1;
-    -ms-grid-column-span: 2;
-    grid-column-end: 3;
-    -ms-grid-row: 2;
-        grid-row-start: 2;
-    -ms-grid-row-span: 1;
-    grid-row-end: 3;
-    margin: 0 108px 0 108px;
-  }
-}
-@media (max-width: 767px) {
-  .advantages__item--grid-simulators {
-    -ms-grid-column: 1;
-        grid-column-start: 1;
-    -ms-grid-row: 3;
-        grid-row-start: 3;
-    margin: 0;
-    min-height: 239px;
   }
 }
 
@@ -4115,7 +4137,6 @@ button.swiper-pagination-bullet {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: auto;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -4134,7 +4155,7 @@ button.swiper-pagination-bullet {
 }
 
 .advantages__amount {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 71px;
@@ -4143,6 +4164,7 @@ button.swiper-pagination-bullet {
   background-color: #103aae;
   background-image: linear-gradient(129deg, #d10a42 0%, #0041ca 100%);
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: -20px;
 }
@@ -4159,7 +4181,7 @@ button.swiper-pagination-bullet {
 }
 
 .advantages__measure {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -4176,7 +4198,6 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 767px) {
   .advantages__measure {
-    position: initial;
     width: 100%;
     text-align: center;
     position: absolute;
@@ -4185,7 +4206,7 @@ button.swiper-pagination-bullet {
 }
 
 .advantages__measure--white-color {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 26px;
@@ -4218,7 +4239,7 @@ button.swiper-pagination-bullet {
 }
 
 .advantages__heading {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 22px;
@@ -4238,7 +4259,7 @@ button.swiper-pagination-bullet {
 }
 
 .advantages__info {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
@@ -4293,7 +4314,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__title {
-  font-family: "AlumniSans", Verdana, sans-serif;
+  font-family: "AlumniSans", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -4343,13 +4364,13 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 767px) {
   .promotions__container {
-    width: 90.625%;
+    width: 90.62%;
     min-height: 1080px;
   }
 }
 
 .promotions__wrapper-1 {
-  width: 48.277%;
+  width: 48.27%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4374,7 +4395,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__wrapper-2 {
-  width: 48.277%;
+  width: 48.27%;
   min-height: 211px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4423,7 +4444,7 @@ button.swiper-pagination-bullet {
 
 .promotions__border {
   width: 100%;
-  background: linear-gradient(120deg, #ed0233 0%, #003EB7 75%);
+  background: linear-gradient(120deg, #ed0233 0%, #003eb7 75%);
   outline: none;
   height: 45.67%;
   min-height: 211px;
@@ -4468,7 +4489,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__heading {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 26px;
@@ -4479,7 +4500,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__text {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -4497,7 +4518,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__link {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
@@ -4548,7 +4569,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__heading--white-color {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 28px;
@@ -4558,7 +4579,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__year {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 70px;
@@ -4569,7 +4590,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__text--white-color {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -4594,7 +4615,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__link--white-color {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 14px;
@@ -4671,7 +4692,7 @@ button.swiper-pagination-bullet {
 }
 
 .FAQ__title {
-  font-family: "AlumniSans", Verdana, sans-serif;
+  font-family: "AlumniSans", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -4692,7 +4713,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 767px) {
   .FAQ__title {
-    ont-size: 32px;
+    font-size: 32px;
     line-height: 38.4px;
     padding-bottom: 30px;
   }
@@ -4709,7 +4730,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 767px) {
   .FAQ__container {
-    width: 90.625%;
+    width: 90.62%;
   }
 }
 
@@ -4729,6 +4750,7 @@ button.swiper-pagination-bullet {
     padding: 0;
   }
 }
+
 .FAQ__controls {
   width: 22.41%;
   max-height: 246px;
@@ -4776,7 +4798,7 @@ button.swiper-pagination-bullet {
 }
 
 .FAQ__control {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
@@ -4796,7 +4818,7 @@ button.swiper-pagination-bullet {
 .FAQ__control.is-active {
   border: none;
   text-decoration: none;
-  background: linear-gradient(120deg, #ed0233 0%, #003EB7 75%);
+  background: linear-gradient(120deg, #ed0233 0%, #003eb7 75%);
   color: #ffffff;
 }
 @media (max-width: 1199px) {
@@ -4811,7 +4833,7 @@ button.swiper-pagination-bullet {
     padding: 14px 0 14px 0;
     font-size: 16px;
     line-height: 16px;
-    height: 45.8333%;
+    height: 45.83%;
   }
 }
 
@@ -4832,7 +4854,7 @@ button.swiper-pagination-bullet {
   opacity: 1;
   border: none;
   text-decoration: none;
-  background: linear-gradient(120deg, #ed0233 0%, #003EB7 75%);
+  background: linear-gradient(120deg, #ed0233 0%, #003eb7 75%);
   color: #ffffff;
   outline: none;
 }
@@ -4915,7 +4937,7 @@ button.swiper-pagination-bullet {
     left: calc(100% - 16px);
   }
 }
-.accordion__button:hover:before, .accordion__button:hover:after {
+.accordion__button:hover::before, .accordion__button:hover::after {
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -4936,19 +4958,19 @@ button.swiper-pagination-bullet {
     left: calc(100% - 16px);
   }
 }
-.accordion__element.is-active > .accordion__button:before, .accordion__element.is-active > .accordion__button:after {
+.accordion__element.is-active > .accordion__button::before, .accordion__element.is-active > .accordion__button::after {
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
   background-color: #ffffff;
 }
-.accordion__element.is-active > .accordion__button:hover:before, .accordion__element.is-active > .accordion__button:hover:after {
+.accordion__element.is-active > .accordion__button:hover::before, .accordion__element.is-active > .accordion__button:hover::after {
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
   background-color: #ffffff;
 }
-.accordion__element > .accordion__button:before, .accordion__element > .accordion__button:after {
+.accordion__element > .accordion__button::before, .accordion__element > .accordion__button::after {
   content: "";
   width: 61.15%;
   height: 1px;
@@ -4962,7 +4984,7 @@ button.swiper-pagination-bullet {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.accordion__element > .accordion__button:after {
+.accordion__element > .accordion__button::after {
   -webkit-transform: rotate(0);
       -ms-transform: rotate(0);
           transform: rotate(0);
@@ -4970,7 +4992,7 @@ button.swiper-pagination-bullet {
   transition: all 0.3s ease-out;
 }
 .accordion__question {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 24px;
@@ -5029,7 +5051,7 @@ button.swiper-pagination-bullet {
   }
 }
 .accordion__answer {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
@@ -5061,7 +5083,7 @@ button.swiper-pagination-bullet {
 }
 
 .reviews__container {
-  width: 49.195%;
+  width: 49.19%;
   min-width: 672px;
   margin: 0 auto;
   position: relative;
@@ -5074,13 +5096,13 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 767px) {
   .reviews__container {
-    width: 90.625%;
+    width: 90.62%;
     min-width: 290px;
   }
 }
 
 .reviews__title {
-  font-family: "AlumniSans", Verdana, sans-serif;
+  font-family: "AlumniSans", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -5129,17 +5151,17 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-reviews {
-  width: 83.3334%;
+  width: 83.33%;
   position: relative;
 }
 @media (max-width: 1199px) {
   .swiper-reviews {
-    width: 83.481%;
+    width: 83.48%;
   }
 }
 @media (max-width: 767px) {
   .swiper-reviews {
-    width: 77.932%;
+    width: 77.93%;
   }
 }
 
@@ -5196,7 +5218,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-reviews__name {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
@@ -5214,7 +5236,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-reviews__text {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -5225,7 +5247,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 1199px) {
   .swiper-reviews__text {
-    width: 83.217%;
+    width: 83.22%;
   }
 }
 @media (max-width: 767px) {
@@ -5244,15 +5266,18 @@ button.swiper-pagination-bullet {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   border-top: 1px solid #74819c;
-  /* @include vp-1199 {
-      flex-wrap: nowrap;
-  } */
 }
 
 .free-lesson {
   width: 50%;
   padding: 56px 0 70px 0;
   background-color: #102654;
+}
+.free-lesson label input {
+  border: none;
+  padding: 10px 0 10px 0;
+  min-height: auto;
+  border-bottom: 1px solid #74819c;
 }
 @media (max-width: 1199px) {
   .free-lesson {
@@ -5263,7 +5288,7 @@ button.swiper-pagination-bullet {
 
 .free-lesson__container {
   width: 60.03%;
-  margin-left: 15.081%;
+  margin-left: 15.08%;
 }
 @media (max-width: 1199px) {
   .free-lesson__container {
@@ -5273,13 +5298,13 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 767px) {
   .free-lesson__container {
-    width: 90.625%;
+    width: 90.62%;
     margin: 0 auto;
   }
 }
 
 .free-lesson__title {
-  font-family: "AlumniSans", Verdana, sans-serif;
+  font-family: "AlumniSans", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 84.24px;
@@ -5316,7 +5341,7 @@ button.swiper-pagination-bullet {
 }
 
 .free-lesson__wrapper {
-  width: 46.341%;
+  width: 46.34%;
   padding: 0;
 }
 @media (max-width: 767px) {
@@ -5325,16 +5350,9 @@ button.swiper-pagination-bullet {
   }
 }
 
-.free-lesson label input {
-  border: none;
-  padding: 10px 0 10px 0;
-  min-height: auto;
-  border-bottom: 1px solid #74819c;
-}
-
 .free-lesson__name,
 .free-lesson__tel {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -5368,7 +5386,7 @@ button.swiper-pagination-bullet {
 
 .free-lesson__send {
   width: 100%;
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 14px;
@@ -5394,7 +5412,7 @@ button.swiper-pagination-bullet {
 }
 
 .contacts__container {
-  width: 59.151%;
+  width: 59.15%;
   margin-left: 17.57%;
 }
 @media (max-width: 1199px) {
@@ -5405,13 +5423,13 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 767px) {
   .contacts__container {
-    width: 90.625%;
+    width: 90.62%;
     margin: 0 auto;
   }
 }
 
 .contacts__title {
-  font-family: "AlumniSans", Verdana, sans-serif;
+  font-family: "AlumniSans", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -5454,7 +5472,7 @@ button.swiper-pagination-bullet {
 }
 
 .contacts__item--border {
-  width: 57.923%;
+  width: 57.92%;
 }
 @media (max-width: 767px) {
   .contacts__item--border {
@@ -5483,7 +5501,7 @@ button.swiper-pagination-bullet {
 }
 
 .contacts__heading {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
@@ -5500,7 +5518,7 @@ button.swiper-pagination-bullet {
 }
 
 .contacts__text {
-  font-family: "RobotoCondensed", Verdana, sans-serif;
+  font-family: "RobotoCondensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;

@@ -1,36 +1,36 @@
 .footer {
-    width: 100%;
-    background-color: $color-default-black-russian;
+  width: 100%;
+  background-color: $color-default-black-russian;
 }
 
 .footer__container {
-    width: 85%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
 
-    @include vp-1199 {
-        width: 88%;
-    }
+  @include vp-1199 {
+    width: 88%;
+  }
 
-    @include vp-767 {
-        width: 91%;
-        display: block;
-        flex-wrap: nowrap;
-        position: relative;
-    }
+  @include vp-767 {
+    width: 91%;
+    display: block;
+    flex-wrap: nowrap;
+    position: relative;
+  }
 }
 
 .footer__logo {
-    align-self: center;
-    margin-top: 35px;
-    margin-bottom: 32px;
+  align-self: center;
+  margin-top: 35px;
+  margin-bottom: 32px;
 
-    @include vp-767 {
-        position: absolute;
-        margin: 0;
-        left: 0;
-        top: 6px;
-    }
+  @include vp-767 {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 6px;
+  }
 }
