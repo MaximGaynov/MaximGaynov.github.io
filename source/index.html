@@ -293,7 +293,7 @@
       <section class="super-games">
         <div class="super-games__container">
           <div class="super-games__info">
-            <div class="super-games__wrapper">
+            <div class="super-games__wrapper-left">
               <h2 class="super-games__title">Super Games</h2>
               <dl class="super-games__list">
                 <dt class="super-games__item super-games__item--grid1">Дата</dt>
@@ -309,8 +309,8 @@
               </div>
             </div>
           </div>
-          <div class="super-games__photo">
-            <picture>
+          <div class="super-games__wrapper-rigth">
+            <picture class="super-games__media">
               <source type="image/webp" media="(min-width: 1200px)" srcset="
                 img/super-games/man-desktop.webp        1x,
                 img/super-games/man-desktop-retina.webp 2x
@@ -331,7 +331,7 @@
                 img/super-games/man-tablet.png        1x,
                 img/super-games/man-tablet-retina.png 2x
               " />
-              <img class="super-games__media" src="img/super-games/man-mobile.png"
+              <img class="super-games__photo" src="img/super-games/man-mobile.png"
                 srcset="img/super-games/man-mobile-retina.png 2x" alt="Фотография мужчины, бьющего снег" />
             </picture>
           </div>
@@ -340,11 +340,11 @@
 
       <section class="coaches" id="coaches">
         <div class="coaches__container">
-          <div class="swiper-coaches swiper mySwiper-coaches">
+          <div class="swiper-coaches swiper">
             <h2 class="swiper-coaches__title">Тренеры</h2>
             <div class="swiper-wrapper swiper-coaches__wrapper">
               <div class="swiper-slide swiper-coaches__slide" tabindex="0">
-                <picture>
+                <picture class="swiper-coaches__media">
                   <source type="image/webp" media="(min-width: 1200px)" srcset="
                     img/coaches/pavlova-desktop.webp       1x,
                     img/coaches/pavlova-desktop-retina.webp 2x
@@ -613,8 +613,8 @@
               <p class="promotions__text promotions__text--white-color">Безлимитный абонемент в тренажерный зал</p>
               <a class="promotions__link promotions__link--white-color" href="">Подробнее</a>
             </div>
-            <div class="promotions__photo">
-              <picture>
+            <div class="promotions__photo-wrapper">
+              <picture class="promotions__media">
                 <source type="image/webp" media="(min-width: 1200px)" srcset="
                 img/promotions/promotions-desktop.webp        1x,
                 img/promotions/promotions-desktop-retina.webp 2x
@@ -635,7 +635,7 @@
                 img/promotions/promotions-tablet.png        1x,
                 img/promotions/promotions-tablet-retina.png 2x
               " />
-                <img class="promotions__media" src="img/promotions/promotions-mobile.png"
+                <img class="promotions__photo" src="img/promotions/promotions-mobile.png"
                   srcset="img/promotions/promotions-mobile-retina.png 2x"
                   alt="Фотография спортсменки в синем, оптягивающем, спортивном костюме" />
               </picture>
@@ -660,19 +660,19 @@
         </div>
       </section>
 
-      <section class="FAQ">
-        <h2 class="FAQ__title">Вопросы и ответы</h2>
-        <div class="FAQ__container">
-          <div class="tabs no-transition-global FAQ__tabs" data-tabs="parent" data-delay="300">
-            <div class="tabs__controls FAQ__controls" data-tabs="controls">
-              <button class="tabs__control btn FAQ__control" type="button" data-tabs="control">Центр</button>
-              <button class="tabs__control btn FAQ__control is-active" type="button"
+      <section class="faq">
+        <h2 class="faq__title">Вопросы и ответы</h2>
+        <div class="faq__container">
+          <div class="tabs no-transition-global faq__tabs" data-tabs="parent" data-delay="300">
+            <div class="tabs__controls faq__controls" data-tabs="controls">
+              <button class="tabs__control btn faq__control" type="button" data-tabs="control">Центр</button>
+              <button class="tabs__control btn faq__control is-active" type="button"
                 data-tabs="control">Абонемент</button>
-              <button class="tabs__control btn FAQ__control" type="button" data-tabs="control">Услуги</button>
-              <button class="tabs__control btn FAQ__control" type="button" data-tabs="control">Правила</button>
+              <button class="tabs__control btn faq__control" type="button" data-tabs="control">Услуги</button>
+              <button class="tabs__control btn faq__control" type="button" data-tabs="control">Правила</button>
             </div>
-            <div class="tabs__content FAQ__content" data-tabs="content">
-              <div class="tabs__element FAQ__element" data-tabs="element">
+            <div class="tabs__content faq__content" data-tabs="content">
+              <div class="tabs__element faq__element" data-tabs="element">
                 <div class="accordion" data-accordion="parent">
                   <div class="accordion__element is-active" data-accordion="element">
                     <button class="accordion__button btn btn--aquamarine" type="button"
@@ -887,7 +887,7 @@
       <section class="reviews">
         <div class="reviews__container">
           <h2 class="reviews__title">Отзывы</h2>
-          <div class="swiper-reviews swiper mySwiper-reviews">
+          <div class="swiper-reviews swiper">
             <div class="swiper-wrapper swiper-reviews__wrapper">
               <div class="swiper-slide swiper-reviews__slide">
                 <picture class="swiper-reviews__photo">
@@ -981,12 +981,12 @@
                 <legend class="free-lesson__legend visually-hidden">Персональные данные для заявки</legend>
                 <div class="custom-input free-lesson__wrapper" data-validate-type="text" data-limitation="name" data-message-base="Обязательное поле" data-message-extra="Поле заполнено неверно" data-required="data-required">
                   <label><span class="custom-input__label free-lesson__label"></span>
-                    <input class="free-lesson__name" type="text" name="user-name-1" placeholder="Имя" />
+                    <input class="free-lesson__name" type="text" name="user-name-1" placeholder="Имя" aria-label="Введите имя"/>
                   </label>
                 </div>
                 <div class="custom-input free-lesson__wrapper" data-validate-type="phone" data-on-input-validate="data-on-input-validate" data-message-base="Обязательное поле" data-message-extra="Поле заполнено неверно" data-required="data-required">
                   <label><span class="custom-input__label free-lesson__label"></span>
-                    <input class="free-lesson__tel" type="tel" name="user-phone" placeholder="Телефон" />
+                    <input class="free-lesson__tel" type="tel" name="user-phone" placeholder="Телефон" aria-label="Введите телефон"/>
                   </label>
                 </div>
               </fieldset>

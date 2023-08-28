@@ -1287,7 +1287,7 @@ button,
 }
 
 .header__logo--tel {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 26px;
   line-height: 31px;
@@ -1454,7 +1454,7 @@ button,
 }
 
 .navigation__link {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1612,7 +1612,7 @@ button,
 }
 
 .hero__fitness {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 92px;
   line-height: 110px;
@@ -1635,7 +1635,7 @@ button,
 }
 
 .hero__town {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 48px;
   line-height: 58px;
@@ -1689,7 +1689,7 @@ button,
 }
 
 .hero__item-zone {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -1718,7 +1718,7 @@ button,
 .hero__link {
   display: block;
   width: 100%;
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
@@ -1761,6 +1761,7 @@ button,
 
 .hero__man {
   margin-top: -5px;
+  background-color: #2e35ac;
 }
 @media (max-width: 1199px) {
   .hero__man {
@@ -1835,7 +1836,7 @@ button,
 }
 
 .gym__title {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 48px;
   line-height: 58px;
@@ -1859,7 +1860,7 @@ button,
 }
 
 .gym__area {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -1881,7 +1882,7 @@ button,
 }
 
 .gym__about {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
@@ -1998,6 +1999,7 @@ button,
   width: 100%;
   height: 100%;
   border: none;
+  background-color: #14367a;
 }
 @media (max-width: 767px) {
   .gym-video__media {
@@ -2144,7 +2146,7 @@ button,
 }
 
 .tabs__title {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 65px;
@@ -2219,7 +2221,7 @@ button,
 
 .tabs__control {
   width: auto;
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
@@ -2406,7 +2408,7 @@ button,
 }
 
 .tabs__heading {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 26px;
@@ -2429,7 +2431,7 @@ button,
 }
 
 .tabs__text {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -2440,7 +2442,7 @@ button,
 }
 
 .tabs__price {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 60px;
@@ -2476,7 +2478,7 @@ button,
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 100px;
@@ -2498,7 +2500,7 @@ button,
 }
 
 .tabs__button {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
@@ -2621,7 +2623,7 @@ button,
   }
 }
 
-.super-games__wrapper {
+.super-games__wrapper-left {
   width: 68.7%;
   max-width: 343px;
   height: 65.2%;
@@ -2639,7 +2641,7 @@ button,
   grid-template-rows: 24.23% 24.23% 30.98% 20.56%;
 }
 @media (max-width: 1199px) {
-  .super-games__wrapper {
+  .super-games__wrapper-left {
     width: 69.18%;
     height: 63.4%;
     max-width: 202px;
@@ -2650,7 +2652,7 @@ button,
   }
 }
 @media (max-width: 767px) {
-  .super-games__wrapper {
+  .super-games__wrapper-left {
     width: 69.65%;
     max-width: 202px;
     position: inherit;
@@ -2658,7 +2660,7 @@ button,
 }
 
 .super-games__title {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 82px;
   line-height: 79px;
@@ -2694,7 +2696,7 @@ button,
 }
 
 .super-games__item {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -2724,7 +2726,7 @@ button,
 }
 
 .super-games__number {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
@@ -2754,7 +2756,7 @@ button,
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -2776,7 +2778,7 @@ button,
 }
 
 .super-games__text {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -2819,7 +2821,7 @@ button,
 }
 
 .super-games__link a {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
@@ -2858,17 +2860,20 @@ button,
   color: #102654;
 }
 
-.super-games__photo {
+.super-games__wrapper-rigth {
   width: 56.9%;
-  background-color: #102654;
 }
 @media (max-width: 767px) {
-  .super-games__photo {
+  .super-games__wrapper-rigth {
     width: 100%;
   }
 }
 
 .super-games__media {
+  background-color: #102654;
+}
+
+.super-games__photo {
   width: 100%;
 }
 
@@ -3773,7 +3778,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-coaches__title {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -3803,6 +3808,10 @@ button.swiper-pagination-bullet {
   outline: none;
 }
 
+.swiper-coaches__media {
+  background-color: #afafaf;
+}
+
 .swiper-coaches__photo {
   width: 100%;
 }
@@ -3824,7 +3833,7 @@ button.swiper-pagination-bullet {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
@@ -3849,7 +3858,7 @@ button.swiper-pagination-bullet {
 }
 
 .coaches-info__title {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
@@ -3859,7 +3868,7 @@ button.swiper-pagination-bullet {
 }
 
 .coaches-info__activity {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -3883,7 +3892,7 @@ button.swiper-pagination-bullet {
 }
 
 .coaches-info__item {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -3911,7 +3920,7 @@ button.swiper-pagination-bullet {
 }
 
 .advantages__title {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -4155,7 +4164,7 @@ button.swiper-pagination-bullet {
 }
 
 .advantages__amount {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 71px;
@@ -4181,7 +4190,7 @@ button.swiper-pagination-bullet {
 }
 
 .advantages__measure {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -4206,7 +4215,7 @@ button.swiper-pagination-bullet {
 }
 
 .advantages__measure--white-color {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 26px;
@@ -4239,7 +4248,7 @@ button.swiper-pagination-bullet {
 }
 
 .advantages__heading {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 22px;
@@ -4259,7 +4268,7 @@ button.swiper-pagination-bullet {
 }
 
 .advantages__info {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
@@ -4314,7 +4323,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__title {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -4489,7 +4498,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__heading {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 26px;
@@ -4500,7 +4509,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__text {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -4518,7 +4527,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__link {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
@@ -4569,7 +4578,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__heading--white-color {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 28px;
@@ -4579,7 +4588,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__year {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 70px;
@@ -4590,7 +4599,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__text--white-color {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -4615,7 +4624,7 @@ button.swiper-pagination-bullet {
 }
 
 .promotions__link--white-color {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 14px;
@@ -4656,43 +4665,47 @@ button.swiper-pagination-bullet {
   opacity: 0.5;
 }
 
-.promotions__photo {
+.promotions__photo-wrapper {
   width: 50%;
 }
 @media (max-width: 1199px) {
-  .promotions__photo {
+  .promotions__photo-wrapper {
     width: 58.85%;
   }
 }
 @media (max-width: 767px) {
-  .promotions__photo {
+  .promotions__photo-wrapper {
     width: 100%;
   }
 }
 
 .promotions__media {
+  background-color: #76b3ec;
+}
+
+.promotions__photo {
   width: 100%;
   height: 100%;
 }
 
-.FAQ {
+.faq {
   width: 100%;
   background-color: #f8f9fc;
   padding: 120px 0 120px 0;
 }
 @media (max-width: 1199px) {
-  .FAQ {
+  .faq {
     padding: 100px 0 100px 0;
   }
 }
 @media (max-width: 767px) {
-  .FAQ {
+  .faq {
     padding: 70px 0 70px 0;
   }
 }
 
-.FAQ__title {
-  font-family: "AlumniSans", sans-serif;
+.faq__title {
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -4703,7 +4716,7 @@ button.swiper-pagination-bullet {
   padding-bottom: 39px;
 }
 @media (max-width: 1199px) {
-  .FAQ__title {
+  .faq__title {
     font-size: 42px;
     line-height: 50.4px;
     padding-left: 0;
@@ -4712,29 +4725,29 @@ button.swiper-pagination-bullet {
   }
 }
 @media (max-width: 767px) {
-  .FAQ__title {
+  .faq__title {
     font-size: 32px;
     line-height: 38.4px;
     padding-bottom: 30px;
   }
 }
 
-.FAQ__container {
+.faq__container {
   width: 84.92%;
   margin: 0 auto;
 }
 @media (max-width: 1199px) {
-  .FAQ__container {
+  .faq__container {
     width: 88.28%;
   }
 }
 @media (max-width: 767px) {
-  .FAQ__container {
+  .faq__container {
     width: 90.62%;
   }
 }
 
-.FAQ__tabs {
+.faq__tabs {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4746,12 +4759,12 @@ button.swiper-pagination-bullet {
           justify-content: space-between;
 }
 @media (max-width: 1199px) {
-  .FAQ__tabs {
+  .faq__tabs {
     padding: 0;
   }
 }
 
-.FAQ__controls {
+.faq__controls {
   width: 22.41%;
   max-height: 246px;
   margin: 0;
@@ -4765,7 +4778,7 @@ button.swiper-pagination-bullet {
       align-content: space-between;
 }
 @media (max-width: 1199px) {
-  .FAQ__controls {
+  .faq__controls {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4779,26 +4792,26 @@ button.swiper-pagination-bullet {
   }
 }
 @media (max-width: 767px) {
-  .FAQ__controls {
+  .faq__controls {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding-bottom: 30px;
   }
 }
 
-.FAQ__content {
+.faq__content {
   width: 74.14%;
   margin: 0;
   border-bottom: 1px solid rgba(28, 51, 116, 0.2);
 }
 @media (max-width: 1199px) {
-  .FAQ__content {
+  .faq__content {
     width: 100%;
   }
 }
 
-.FAQ__control {
-  font-family: "RobotoCondensed", sans-serif;
+.faq__control {
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
@@ -4815,20 +4828,20 @@ button.swiper-pagination-bullet {
       -ms-flex-align: center;
           align-items: center;
 }
-.FAQ__control.is-active {
+.faq__control.is-active {
   border: none;
   text-decoration: none;
   background: linear-gradient(120deg, #ed0233 0%, #003eb7 75%);
   color: #ffffff;
 }
 @media (max-width: 1199px) {
-  .FAQ__control {
+  .faq__control {
     width: 23.89%;
     padding: 18px 0 18px 0;
   }
 }
 @media (max-width: 767px) {
-  .FAQ__control {
+  .faq__control {
     width: 48.62%;
     padding: 14px 0 14px 0;
     font-size: 16px;
@@ -4837,20 +4850,20 @@ button.swiper-pagination-bullet {
   }
 }
 
-.FAQ__control:hover,
-.FAQ__control:focus {
+.faq__control:hover,
+.faq__control:focus {
   opacity: 1;
   border: 1px solid rgb(16, 38, 84);
   text-decoration: none;
   outline: none;
 }
-.FAQ__control:hover.is-active,
-.FAQ__control:focus.is-active {
+.faq__control:hover.is-active,
+.faq__control:focus.is-active {
   opacity: 1;
   border: none;
 }
 
-.FAQ__control:active {
+.faq__control:active {
   opacity: 1;
   border: none;
   text-decoration: none;
@@ -4859,18 +4872,18 @@ button.swiper-pagination-bullet {
   outline: none;
 }
 
-.FAQ__control:disabled {
+.faq__control:disabled {
   opacity: 0.2;
   border: 1px solid rgba(16, 38, 84, 0.2);
 }
 
-.FAQ__control:first-child,
-.FAQ__control:not(:first-child) {
+.faq__control:first-child,
+.faq__control:not(:first-child) {
   padding: 0;
 }
 @media (max-width: 1199px) {
-  .FAQ__control:first-child,
-.FAQ__control:not(:first-child) {
+  .faq__control:first-child,
+.faq__control:not(:first-child) {
     padding: 18px 0 18px 0;
   }
 }
@@ -4992,7 +5005,7 @@ button.swiper-pagination-bullet {
   transition: all 0.3s ease-out;
 }
 .accordion__question {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 24px;
@@ -5051,7 +5064,7 @@ button.swiper-pagination-bullet {
   }
 }
 .accordion__answer {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
@@ -5102,7 +5115,7 @@ button.swiper-pagination-bullet {
 }
 
 .reviews__title {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -5218,7 +5231,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-reviews__name {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
@@ -5236,7 +5249,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-reviews__text {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -5304,7 +5317,7 @@ button.swiper-pagination-bullet {
 }
 
 .free-lesson__title {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 84.24px;
@@ -5352,7 +5365,7 @@ button.swiper-pagination-bullet {
 
 .free-lesson__name,
 .free-lesson__tel {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -5386,7 +5399,7 @@ button.swiper-pagination-bullet {
 
 .free-lesson__send {
   width: 100%;
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 14px;
@@ -5429,7 +5442,7 @@ button.swiper-pagination-bullet {
 }
 
 .contacts__title {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -5501,7 +5514,7 @@ button.swiper-pagination-bullet {
 }
 
 .contacts__heading {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
@@ -5518,7 +5531,7 @@ button.swiper-pagination-bullet {
 }
 
 .contacts__text {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;

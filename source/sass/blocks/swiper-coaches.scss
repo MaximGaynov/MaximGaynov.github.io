@@ -12,7 +12,7 @@
 }
 
 .swiper-coaches__title {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -40,6 +40,10 @@
   outline: none;
 }
 
+.swiper-coaches__media {
+  background-color: $color-default-dark-grey;
+}
+
 .swiper-coaches__photo {
   width: 100%;
 }
@@ -59,7 +63,7 @@
   top: 87%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 18px;

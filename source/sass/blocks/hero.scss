@@ -50,7 +50,7 @@
 }
 
 .hero__fitness {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 92px;
   line-height: 110px;
@@ -70,7 +70,7 @@
 }
 
 .hero__town {
-  font-family: "AlumniSans", sans-serif;
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 48px;
   line-height: 58px;
@@ -116,7 +116,7 @@
 }
 
 .hero__item-zone {
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -139,7 +139,7 @@
 .hero__link {
   display: block;
   width: 100%;
-  font-family: "RobotoCondensed", sans-serif;
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
@@ -180,6 +180,7 @@
 
 .hero__man {
   margin-top: -5px;
+  background-color: $color-default-persian-blue;
 
   @include vp-1199 {
     margin-top: 0;

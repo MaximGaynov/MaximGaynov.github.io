@@ -3,7 +3,7 @@ import './vendor/swiper';
 import './vendor/focus-visible-polyfill';
 
 // eslint-disable-next-line no-undef
-let swiperCoaches = new Swiper('.mySwiper-coaches', {
+let swiperCoaches = new Swiper('.swiper-coaches', {
   slidesPerView: 4,
   spaceBetween: 40,
   loop: true,
@@ -28,8 +28,9 @@ let swiperCoaches = new Swiper('.mySwiper-coaches', {
 });
 
 // eslint-disable-next-line no-undef
-let swiperReviews = new Swiper('.mySwiper-reviews', {
+let swiperReviews = new Swiper('.swiper-reviews', {
   slidesPerView: 1,
+  loop: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',

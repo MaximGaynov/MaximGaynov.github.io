@@ -1,4 +1,4 @@
-.FAQ {
+.faq {
   width: 100%;
   background-color: $color-default-ghost-white;
   padding: 120px 0 120px 0;
@@ -12,8 +12,8 @@
   }
 }
 
-.FAQ__title {
-  font-family: "AlumniSans", sans-serif;
+.faq__title {
+  font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 54px;
   line-height: 64.8px;
@@ -38,7 +38,7 @@
   }
 }
 
-.FAQ__container {
+.faq__container {
   width: 84.92%;
   margin: 0 auto;
 
@@ -51,7 +51,7 @@
   }
 }
 
-.FAQ__tabs {
+.faq__tabs {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -62,7 +62,7 @@
   }
 }
 
-.FAQ__controls {
+.faq__controls {
   width: 22.41%;
   max-height: 246px;
   margin: 0;
@@ -85,7 +85,7 @@
   }
 }
 
-.FAQ__content {
+.faq__content {
   width: 74.14%;
   margin: 0;
   border-bottom: 1px solid rgba($color: $color-default-resolution-blue, $alpha: 0.2);
@@ -95,8 +95,8 @@
   }
 }
 
-.FAQ__control {
-  font-family: "RobotoCondensed", sans-serif;
+.faq__control {
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
@@ -131,8 +131,8 @@
   }
 }
 
-.FAQ__control:hover,
-.FAQ__control:focus {
+.faq__control:hover,
+.faq__control:focus {
   opacity: 1;
   border: 1px solid rgba(16, 38, 84, 1);
   text-decoration: none;
@@ -144,7 +144,7 @@
   }
 }
 
-.FAQ__control:active {
+.faq__control:active {
   opacity: 1;
   border: none;
   text-decoration: none;
@@ -153,13 +153,13 @@
   outline: none;
 }
 
-.FAQ__control:disabled {
+.faq__control:disabled {
   opacity: 0.2;
   border: 1px solid rgba(16, 38, 84, 0.2);
 }
 
-.FAQ__control:first-child,
-.FAQ__control:not(:first-child) {
+.faq__control:first-child,
+.faq__control:not(:first-child) {
   padding: 0;
 
   @include vp-1199 {
