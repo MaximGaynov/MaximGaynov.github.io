@@ -11,7 +11,7 @@
   }
 }
 
-.swiper-coaches__title {
+.swiper-coaches h2 {
   font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 54px;
@@ -44,8 +44,20 @@
   background-color: $color-default-dark-grey;
 }
 
-.swiper-coaches__photo {
+.swiper-coaches__media img {
+  object-fit: cover;
   width: 100%;
+
+  @include vp-1199 {
+    margin: 0 auto;
+    width: 268px;
+    height: 294px;
+  }
+
+  @include vp-767 {
+    width: 226px;
+    height: 274px;
+  }
 }
 
 .swiper-slide:hover .coaches-info,
@@ -53,12 +65,7 @@
   display: block;
 }
 
-.swiper-slide:hover .swiper-coaches__name,
-.swiper-slide:focus .swiper-coaches__name {
-  display: none;
-}
-
-.swiper-coaches__name {
+.swiper-coaches__slide p {
   position: absolute;
   top: 87%;
   left: 50%;
@@ -70,4 +77,9 @@
   line-height: 27px;
   color: $color-default-white;
   margin: 0;
+}
+
+.swiper-slide:hover p,
+.swiper-slide:focus p {
+  display: none;
 }

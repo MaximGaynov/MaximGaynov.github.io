@@ -12,20 +12,20 @@
   }
 }
 
-.socials__list {
+.socials__container ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
 }
 
-.socials__item {
+.socials__container li {
   min-width: 25px;
   background-color: $color-default-white;
   border-radius: 50% 50%;
 }
 
-.socials__item:hover {
+.socials__container li:hover {
   background-color: $color-default-egyptian-blue;
 }
 

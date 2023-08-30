@@ -11,7 +11,7 @@
   display: none;
 }
 
-.coaches-info__title {
+.coaches-info h3 {
   font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -21,7 +21,7 @@
   padding-top: 58px;
 }
 
-.coaches-info__activity {
+.coaches-info span {
   font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -31,7 +31,7 @@
   color: $color-default-spindle;
 }
 
-.coaches-info__list {
+.coaches-info ul {
   position: absolute;
   top: 70%;
   left: 57%;
@@ -42,7 +42,7 @@
   padding-inline-start: 0;
 }
 
-.coaches-info__item {
+.coaches-info li {
   font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -50,6 +50,6 @@
   line-height: 22px;
 }
 
-.coaches-info__item:not(:last-child) {
+.coaches-info li:not(:last-child) {
   padding-bottom: 14px;
 }

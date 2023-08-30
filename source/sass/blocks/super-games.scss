@@ -69,7 +69,7 @@
   }
 }
 
-.super-games__title {
+.super-games__wrapper-left h2 {
   font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 82px;
@@ -91,7 +91,7 @@
   }
 }
 
-.super-games__list {
+.super-games__wrapper-left dl {
   margin: 0;
   grid-column-start: 2;
   grid-row-start: 1;
@@ -125,7 +125,7 @@
   }
 }
 
-.super-games__number {
+.super-games__wrapper-left dd {
   font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -145,7 +145,7 @@
   }
 }
 
-.super-games__date {
+.super-games__date span {
   display: grid;
   position: absolute;
   top: 50%;
@@ -156,21 +156,25 @@
   font-style: normal;
   font-size: 14px;
   line-height: 21px;
+  padding-left: 5px;
 
   @include vp-1199 {
     font-size: 10px;
     line-height: 15px;
     top: 55%;
     left: 60%;
+    padding-left: 0;
+    margin-left: -2px;
   }
 
   @include vp-767 {
     font-size: 10px;
     line-height: 15px;
+    margin-left: -3px;
   }
 }
 
-.super-games__text {
+.super-games__wrapper-left p {
   font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -252,6 +256,7 @@
   background-color: $color-default-sapphire;
 }
 
-.super-games__photo {
+.super-games__media img {
+  object-fit: cover;
   width: 100%;
 }

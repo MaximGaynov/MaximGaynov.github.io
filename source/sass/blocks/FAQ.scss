@@ -12,7 +12,7 @@
   }
 }
 
-.faq__title {
+.faq h2 {
   font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 54px;
@@ -104,6 +104,7 @@
   color: rgba(16, 38, 84, 1);
   width: 100%;
   border: 1px solid rgba(16, 38, 84, 0.2);
+  background: $color-default-ghost-white;
   opacity: 1;
   text-decoration: none;
   justify-content: center;

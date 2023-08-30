@@ -4,8 +4,6 @@ import './vendor/focus-visible-polyfill';
 
 // eslint-disable-next-line no-undef
 let swiperCoaches = new Swiper('.swiper-coaches', {
-  slidesPerView: 4,
-  spaceBetween: 40,
   loop: true,
   breakpoints: {
     320: {
@@ -22,18 +20,17 @@ let swiperCoaches = new Swiper('.swiper-coaches', {
     },
   },
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.coaches__button-next',
+    prevEl: '.coaches__button-prev',
   },
 });
 
 // eslint-disable-next-line no-undef
 let swiperReviews = new Swiper('.swiper-reviews', {
   slidesPerView: 1,
-  loop: true,
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.reviews__button-next',
+    prevEl: '.reviews__button-prev',
   },
 });
 

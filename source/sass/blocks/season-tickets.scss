@@ -1,4 +1,4 @@
-.tabs {
+.season-tickets {
   width: 100%;
   background-color: $color-default-ghost-white;
   position: relative;
@@ -14,7 +14,7 @@
   }
 }
 
-.tabs__title {
+.season-tickets h2 {
   font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
   font-size: 54px;
@@ -38,7 +38,7 @@
   }
 }
 
-.tabs__container {
+.season-tickets__container {
   width: 84.92%;
   margin: 0 auto;
 
@@ -53,7 +53,7 @@
   }
 }
 
-.tabs__controls {
+.season-tickets__controls {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -73,7 +73,7 @@
   }
 }
 
-.tabs__control {
+.season-tickets__control {
   width: auto;
   font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
@@ -105,9 +105,7 @@
   }
 }
 
-.tabs__control:hover,
-.tabs__control:focus,
-.tabs__control:active {
+.season-tickets__control:hover {
   color: rgba(16, 38, 84, 1);
   text-decoration-line: underline;
   text-decoration-thickness: 2px;
@@ -116,11 +114,30 @@
   outline: none;
 }
 
-.tabs__control:disabled {
+
+.season-tickets__control:focus {
+  color: rgba(16, 38, 84, 1);
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 28px;
+  text-decoration-color: $color-default-crimson;
+  outline: none;
+}
+
+.season-tickets__control:active {
+  color: rgba(16, 38, 84, 1);
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 28px;
+  text-decoration-color: $color-default-crimson;
+  outline: none;
+}
+
+.season-tickets__control:disabled {
   border-bottom: none;
 }
 
-.tabs__control:not(:first-child) {
+.season-tickets__control:not(:first-child) {
   padding: 20px 24px 20px 23px;
 
   @include vp-1199 {
@@ -132,7 +149,7 @@
   }
 }
 
-.tabs__control:last-child {
+.season-tickets__control:last-child {
   padding: 20px 0 20px 23px;
 
   @include vp-1199 {
@@ -144,7 +161,7 @@
   }
 }
 
-.tabs__control:first-child {
+.season-tickets__control:first-child {
   padding: 20px 23px 20px 0;
 
   @include vp-1199 {
@@ -156,7 +173,7 @@
   }
 }
 
-.tabs__content {
+.season-tickets__content {
   width: 100%;
   margin: 0 auto;
   transition: height 0.3s;
@@ -173,7 +190,7 @@
   }
 }
 
-.tabs__element {
+.season-tickets__element {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -190,7 +207,7 @@
   }
 }
 
-.tabs__border {
+.season-tickets__border {
   width: 31%;
   background: $color-default-white;
   padding-top: 7px;
@@ -203,7 +220,7 @@
   }
 }
 
-.tabs__border:not(:last-child) {
+.season-tickets__border:not(:last-child) {
   @include vp-1199 {
     margin-bottom: 40px;
   }
@@ -213,15 +230,15 @@
   }
 }
 
-.tabs__border:hover {
+.season-tickets__border:hover {
   background: $red-to-blue;
 }
 
-.tabs__border:focus-within {
+.season-tickets__border:focus-within {
   background: $red-to-blue;
 }
 
-.tabs__wrapper {
+.season-tickets__wrapper {
   width: 97%;
   height: 98.5%;
   text-align: center;
@@ -236,7 +253,7 @@
   }
 }
 
-.tabs__heading {
+.season-tickets__wrapper h3 {
   font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -257,7 +274,7 @@
   }
 }
 
-.tabs__text {
+.season-tickets__text p {
   font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -268,7 +285,7 @@
   padding-bottom: 80px;
 }
 
-.tabs__price {
+.season-tickets__price p {
   font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -278,7 +295,7 @@
   margin: 0 auto;
   padding-bottom: 30px;
   z-index: 2;
-  position: inherit;
+  position: relative;
 
   @include vp-767 {
     font-size: 48px;
@@ -286,17 +303,17 @@
   }
 }
 
-.tabs__price::after {
-  content: url("/img/tabs/rubl.png");
+.season-tickets__price p::after {
+  content: url("/img/season-tickets/rubl.png");
   padding-left: 14px;
 
   @include vp-767 {
-    content: url("/img/tabs/rubl-mobile.png");
+    content: url("/img/season-tickets/rubl-mobile.png");
     padding-left: 10px;
   }
 }
 
-.tabs__price--shadow {
+.season-tickets__price--shadow p {
   position: absolute;
   top: 53%;
   left: 49%;
@@ -317,11 +334,11 @@
   }
 }
 
-.tabs__price--shadow::after {
+.season-tickets__price--shadow p::after {
   content: none;
 }
 
-.tabs__button {
+.season-tickets__button {
   font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -341,46 +358,46 @@
   }
 
   @include vp-767 {
-    width: 71%;
+    width: 74.06%;
   }
 }
 
-.tabs__border:hover .tabs__button {
+.season-tickets__border:hover .season-tickets__button {
   color: $color-default-white;
   background: $red-to-blue;
   border: 2px solid;
 }
 
-.tabs__border:focus-within .tabs__button {
+.season-tickets__border:focus-within .season-tickets__button {
   color: $color-default-white;
   background: $red-to-blue;
   border: 2px solid;
 }
 
-
-.tabs--unset .tabs__content {
+.season-tickets--unset .season-tickets__content {
   height: 100px;
 }
 
-.tabs--unset .tabs__element {
+.season-tickets--unset .season-tickets__element {
   height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-.tabs__photo {
+.season-tickets__media {
   position: absolute;
   min-width: 321px;
   min-height: 384px;
-  bottom: -16%;
-  right: -2.5%;
+  bottom: -19%;
+  right: -1%;
   z-index: 0;
+  object-fit: cover;
 
   @include vp-1199 {
-    min-width: 289px;
-    min-height: 345px;
-    bottom: -6%;
-    right: 0%;
+    width: 289px;
+    height: 345px;
+    bottom: -4%;
+    right: 2%;
   }
 
   @include vp-767 {

@@ -31,9 +31,11 @@ window.addEventListener('DOMContentLoaded', () => {
     video.addEventListener('click', () => {
       let iframe = createIframe(id);
 
-      link.remove();
-      button.remove();
-      video.appendChild(iframe);
+      if (link !== null && button !== null && video !== null) {
+        link.remove();
+        button.remove();
+        video.appendChild(iframe);
+      }
     });
 
     link.removeAttribute('href');
@@ -47,11 +49,12 @@ window.addEventListener('DOMContentLoaded', () => {
   function createIframe() {
     let iframe = document.createElement('iframe');
 
-    iframe.setAttribute('allowfullscreen', '');
-    iframe.setAttribute('allow', 'autoplay');
-    iframe.setAttribute('src', generateURL());
-    iframe.classList.add('gym-video__media');
-
+    if (iframe !== null) {
+      iframe.setAttribute('allowfullscreen', '');
+      iframe.setAttribute('allow', 'autoplay');
+      iframe.setAttribute('src', generateURL());
+      iframe.classList.add('gym-video__media');
+    }
     return iframe;
   }
 
