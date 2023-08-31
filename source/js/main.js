@@ -31,7 +31,7 @@ window.addEventListener('DOMContentLoaded', () => {
     video.addEventListener('click', () => {
       let iframe = createIframe(id);
 
-      if (link !== null && button !== null && video !== null) {
+      if (iframe !== null) {
         link.remove();
         button.remove();
         video.appendChild(iframe);
@@ -49,12 +49,11 @@ window.addEventListener('DOMContentLoaded', () => {
   function createIframe() {
     let iframe = document.createElement('iframe');
 
-    if (iframe !== null) {
-      iframe.setAttribute('allowfullscreen', '');
-      iframe.setAttribute('allow', 'autoplay');
-      iframe.setAttribute('src', generateURL());
-      iframe.classList.add('gym-video__media');
-    }
+    iframe.setAttribute('allowfullscreen', '');
+    iframe.setAttribute('allow', 'autoplay');
+    iframe.setAttribute('src', generateURL());
+    iframe.classList.add('gym-video__media');
+
     return iframe;
   }
 

@@ -47,6 +47,7 @@
 .swiper-coaches__media img {
   object-fit: cover;
   width: 100%;
+  background-color: $color-default-dark-grey;
 
   @include vp-1199 {
     margin: 0 auto;

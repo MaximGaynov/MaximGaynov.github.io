@@ -35,6 +35,20 @@
   }
 }
 
+.header__media img {
+  object-fit: cover;
+
+  @include vp-1199 {
+    width: 82px;
+    height: 17px;
+  }
+
+  @include vp-767 {
+    width: 69px;
+    height: 13px;
+  }
+}
+
 .header__logo--tel {
   font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;

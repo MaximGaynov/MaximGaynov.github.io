@@ -30,10 +30,10 @@
     <header class="header">
       <div class="header__container">
         <a class="header__logo header__logo--image" href="index.html">
-          <picture>
+          <picture class="header__media">
             <source media="(min-width: 1200px)" srcset="img/header/logo-desktop.svg" />
             <source media="(min-width: 768px)" srcset="img/header/logo-tablet.svg" />
-            <img src="img/header/logo-mobile.svg" alt="Логотип Fitness2.0" />
+            <img src="img/header/logo-mobile.svg" alt="Логотип Fitness2.0" width="122" height="22"/>
           </picture>
         </a>
         <a class="header__logo header__logo--tel" href="tel:88005555555">8-800-555-55-55</a>
@@ -1050,17 +1050,15 @@
                 <div class="custom-input free-lesson__wrapper" data-validate-type="text" data-limitation="name"
                   data-message-base="Обязательное поле" data-message-extra="Поле заполнено неверно"
                   data-required="data-required">
-                  <label><span class="custom-input__label free-lesson__label"></span>
-                    <input class="free-lesson__name" type="text" name="user-name-1" placeholder="Имя"
-                      aria-label="Введите имя" />
+                  <label aria-label="Введите имя"><span class="custom-input__label free-lesson__label"></span>
+                    <input class="free-lesson__name" type="text" name="user-name-1" placeholder="Имя" />
                   </label>
                 </div>
                 <div class="custom-input free-lesson__wrapper" data-validate-type="phone"
                   data-on-input-validate="data-on-input-validate" data-message-base="Обязательное поле"
                   data-message-extra="Поле заполнено неверно" data-required="data-required">
-                  <label><span class="custom-input__label free-lesson__label"></span>
-                    <input class="free-lesson__tel" type="tel" name="user-phone" placeholder="Телефон"
-                      aria-label="Введите телефон" />
+                  <label aria-label="Введите телефон"><span class="custom-input__label free-lesson__label"></span>
+                    <input class="free-lesson__tel" type="tel" name="user-phone" placeholder="Телефон" />
                   </label>
                 </div>
               </fieldset>

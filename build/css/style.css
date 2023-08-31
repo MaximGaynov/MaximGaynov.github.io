@@ -1286,6 +1286,23 @@ button,
   }
 }
 
+.header__media img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 1199px) {
+  .header__media img {
+    width: 82px;
+    height: 17px;
+  }
+}
+@media (max-width: 767px) {
+  .header__media img {
+    width: 69px;
+    height: 13px;
+  }
+}
+
 .header__logo--tel {
   font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
@@ -2635,7 +2652,6 @@ button,
 .super-games {
   width: 100%;
   padding: 120px 0 106px 0;
-  z-index: -1;
   position: relative;
 }
 @media (max-width: 1199px) {
@@ -2944,6 +2960,7 @@ button,
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+  background-color: #102654;
 }
 
 /* stylelint-disable */
@@ -3885,6 +3902,7 @@ button.swiper-pagination-bullet {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+  background-color: #afafaf;
 }
 @media (max-width: 1199px) {
   .swiper-coaches__media img {
@@ -4799,6 +4817,7 @@ button.swiper-pagination-bullet {
      object-fit: cover;
   width: 100%;
   height: 100%;
+  background-color: #76b3ec;
 }
 
 .faq {

@@ -1,7 +1,6 @@
 .super-games {
   width: 100%;
   padding: 120px 0 106px 0;
-  z-index: -1;
   position: relative;
 
   @include vp-1199 {
@@ -259,4 +258,5 @@
 .super-games__media img {
   object-fit: cover;
   width: 100%;
+  background-color: $color-default-sapphire;
 }
