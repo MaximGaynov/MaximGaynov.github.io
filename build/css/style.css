@@ -1378,6 +1378,23 @@ button,
   }
 }
 
+.footer__media img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 1199px) {
+  .footer__media img {
+    width: 82px;
+    height: 17px;
+  }
+}
+@media (max-width: 767px) {
+  .footer__media img {
+    width: 68px;
+    height: 15px;
+  }
+}
+
 .navigation {
   width: 39%;
   margin: 49px 0 49px 0;

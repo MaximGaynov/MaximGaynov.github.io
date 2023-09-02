@@ -31,7 +31,7 @@ window.addEventListener('DOMContentLoaded', () => {
     video.addEventListener('click', () => {
       let iframe = createIframe(id);
 
-      if (iframe !== null) {
+      if (iframe && link && button) {
         link.remove();
         button.remove();
         video.appendChild(iframe);
