@@ -1,14 +1,14 @@
 .faq {
   width: 100%;
   background-color: $color-default-ghost-white;
-  padding: 120px 0 120px 0;
+  padding: 0 0 120px 0;
 
   @include vp-1199 {
-    padding: 100px 0 100px 0;
+    padding: 0 0 100px 0;
   }
 
   @include vp-767 {
-    padding: 70px 0 70px 0;
+    padding: 0 0 70px 0;
   }
 }
 
@@ -20,14 +20,16 @@
   color: $color-default-sapphire;
   letter-spacing: 0.03em;
   margin: 0;
-  padding-left: 7.4%;
+  padding-left: 7.5%;
   padding-bottom: 39px;
+  padding-top: 120px;
 
   @include vp-1199 {
     font-size: 42px;
     line-height: 50.4px;
     padding-left: 0;
     padding-bottom: 40px;
+    padding-top: 102px;
     text-align: center;
   }
 
@@ -35,19 +37,23 @@
     font-size: 32px;
     line-height: 38.4px;
     padding-bottom: 30px;
+    padding-top: 72px;
   }
 }
 
 .faq__container {
   width: 84.92%;
+  min-width: 1160px;
   margin: 0 auto;
 
   @include vp-1199 {
+    min-width: 678px;
     width: 88.28%;
   }
 
   @include vp-767 {
     width: 90.62%;
+    min-width: 290px;
   }
 }
 
@@ -81,7 +87,7 @@
 
   @include vp-767 {
     flex-wrap: wrap;
-    padding-bottom: 30px;
+    padding-bottom: 28px;
   }
 }
 
@@ -164,6 +170,10 @@
   padding: 0;
 
   @include vp-1199 {
-    padding: 18px 0 18px 0;
+    padding: 16px 0 16px 0;
+  }
+
+  @include vp-767 {
+    padding: 14px 0 16px 0;
   }
 }

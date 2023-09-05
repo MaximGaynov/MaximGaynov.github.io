@@ -1,8 +1,8 @@
 .gym-video {
   position: relative;
-  width: 31%;
-  bottom: 120px;
+  bottom: 113px;
   margin: 0 auto;
+  margin-left: 37.6%;
   cursor: pointer;
   min-height: 228px;
 
@@ -10,12 +10,15 @@
     width: 39%;
     bottom: 100px;
     min-height: 167px;
+    margin-left: 30.5%;
+    bottom: 84px;
   }
 
   @include vp-767 {
     width: 100%;
     height: auto;
     bottom: 0;
+    margin: 0;
   }
 }
 
@@ -71,6 +74,10 @@
   padding: 0;
   outline: none;
   cursor: pointer;
+
+  @include vp-1199 {
+    top: 51%;
+  }
 }
 
 .gym-video__button svg {
